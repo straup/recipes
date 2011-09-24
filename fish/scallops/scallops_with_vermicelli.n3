@@ -1,0 +1,61 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Scallops with Vermicelli"; 
+
+  e:ingredients (
+     [e:amount "1 1/2"; e:measure I:pound; e:foodstuff "bay, or sea, scallops"; e:detail "rinsed and drained";]
+     [e:amount "3"; e:measure I:Tbsp; e:foodstuff "lemon juice"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "fresh parsley"; e:detail "minced";]
+     [e:amount "1"; e:foodstuff "onion"; e:detail "chopped";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "garlic"; e:detail "minced";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "olive oil"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "butter"; e:detail "unsalted";]
+     [e:amount "1/4"; e:measure I:tsp; e:foodstuff "dried oregano"; e:detail "crumbled";]
+     [e:amount "1/4"; e:measure I:tsp; e:foodstuff "dried thyme"; e:detail "crumbled";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "fresh basil"; e:detail "finely chopped";]
+     [e:amount "28"; e:measure I:oz; e:foodstuff "canned tomatoes"; e:detail "drained and chopped, reserve juice";]
+     [e:amount "1/4"; e:measure I:pound; e:foodstuff "vermicelli"; ]
+     [e:foodstuff "nutmeg"; e:detail "freshly grated, to taste";]
+     [e:foodstuff "pepper"; e:detail "freshly ground, to taste";]
+  );
+
+  e:directions (
+    [a:content """In a bowl, combine well the scallops (quartered if large), the lemon juice and
+parsley and let scallops marinate at room temperature for 45 minutes.
+
+In a heavy saucepan cook the onion and garlic in the oil and 1 Tbs. of the butter over
+moderately low heat, stirring until the onion is softened, add the oregano, thyme, basil
+and chopped tomatoes and simmer the sauce, covered, stirring occasionally for 30 minues.
+
+In a kettle of boiling salted water cook the vermicelli for 7-9 minutes, or until it is
+al dente.
+
+While the pasta is cooking, in a large heavy skillet heat the remaining 1 Tbsp. butter
+over moderately high heat until it is hot, add the scallops, drained well, and saute
+them, stirring for 1 minutes.
+
+Add the cream, nutmeg, tomato sauce, enough of the reserved tomato juice to thin the
+sauce to the desired consistency, the pepper and the salt to taste.Bring the mixture to a boil, stirring, and remove the skillet from heat.Drain the vermicelli and toass it with the scallop mixture.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "Gourmet"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: scallops_with_vermicelli.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

@@ -1,0 +1,27 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Gnocchi"; 
+
+  e:ingredients (
+  );
+
+  e:directions (
+    [a:content """""";]
+  ); 
+
+  dc:source [
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: gnocchi.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

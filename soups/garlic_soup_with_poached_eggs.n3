@@ -1,0 +1,139 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix del:     <http://del.icio.us/tags/> .
+
+<#>
+  dc:title "Garlic Soup with Poached Eggs" ;
+#  dc:subject "recipe soup garlic egg" ;
+
+  dc:subject (del:recipe del:soup del:garlic del:egg);
+        
+  e:ingredients (
+    [e:amount 1; e:measure "head"; e:foodstuff "garlic";  e:detail "separated into cloves and peeled" ]
+    [e:amount 2; e:measure I:tsp; e:foodstuff "salt"; e:detail "kosher" ]
+    [e:foodstuff "pepper"; e:detail "blank, freshly ground" ]        
+    [e:amount "¼"; e:measure I:tsp; e:foodstuff "sage"; e:detail "dried" ]
+    [e:amount "¼"; e:measure I:tsp; e:foodstuff "thyme"; e:detail "dried" ]
+    [e:amount 1; e:foodstuff "bay leaf" ]
+    [e:amount 4; e:measure "sprigs"; e:foodstuff "parsley" ]
+    [e:amount 3; e:measure I:Tbsp; e:foodstuff "olive oil"; e:detail "extra-virgin" ]
+    [e:amount 6; e:foodstuff "eggs"; e:detail "as needed" ]
+    [e:foodstuff "parsley"; e:detail "chopped, for garnish" ]
+    [e:foodstuff "Parmesan cheese"; e:detail "grated" ]
+    [e:foodstuff "bread"; e:detail "crusty, optional" ]
+  );
+
+  e:directions (
+    [a:content """In a large saucepan, combine the garlic, salt, pepper,
+sage, thyme, bay leaf, parsley sprigs and olive oil. Add 2 quarts of
+water. Place over high heat and bring to a boil; then reduce heat to low and
+simmer for 30 minutes.
+
+Pour through a fine-meshed strainer into a heatproof bowl, pressing on the
+garlic to squeeze out as much flavor into the broth as possible. Let cool and
+then transfer to a covered container and refrigerate until needed.
+
+To prepare a serving for one, ladle about 1 1/3 cups of broth into a small
+saucepan. Place over medium-low heat and bring to a simmer. Carefully break an
+egg into the broth (do not break the yolk) and poach until the white is just
+set, about 1 ½ minutes. (It will continue to cook off the heat.) Transfer the
+egg to a soup bowl and pour the broth gently over it. Garnish with parsley and
+cheese. If desired, serve with crusty bread."""]
+  );
+
+  e:history (
+    [a:content """ There's a New York rule, one of those we osmose through the
+soles of our stylish yet affordable boots, that on your first night in a new
+apartment, you must order takeout. For my first night in a tiny studio on the
+Upper East Side, which I sublet last fall after separating from my husband of
+seven years, it was abysmal pizza washed down with a bottle of cheap Tempranillo
+while sitting on a brightly upholstered yet somehow melancholy futon. 
+
+Then there's another rule, this one for those of us for whom cooking provides a
+precious means of sustenance in a fragmented life: the second night in a new
+apartment means a home-cooked meal. So on the first morning after the first
+night, under the muffling influence of a red-wine hangover, I emptied mountains
+of individually wrapped plastic cutlery from the two cabinets of my small
+temporary kitchen to make room for a pot, a skillet, a wineglass and a single
+sharp knife. Then I headed to the Gristedes around the corner for olive oil,
+salt and pepper, garlic, onions, Parmesan and eggs, along with toilet paper and
+light bulbs. I took these back to my "home" — wondering if the word would ever
+lose its internally enunciated quotation marks — and made garlic soup. 
+
+Until that night, I would never have considered making garlic soup for
+dinner. My husband and I had been the kind of couple who finish each other's
+sentences and have the same taste in everything — who always ate together. For
+us, I always cooked solid, nourishing meals, like the ones our mothers made for
+our families when we were growing up: pork chops in cream sauce, brussels
+sprouts, potatoes. Meat and two sides, eaten at our dining table or, more often,
+on the couch while we watched DVD's, plates perched on TV trays that seemed to
+wink at our placid, slightly rumpled, 50's-style domesticity. 
+
+But I couldn't imagine cooking like that for myself, alone.
+
+And so I learned that garlic soup with a poached egg is the ideal meal for
+one. To begin with, there's nearly nothing in it. You can divide the soup into
+serving sizes, and then poach one egg in a tiny pot of it every night. It's both
+light and sustaining, like something the ancient Chinese would have eaten for
+its medicinal qualities: garlic for the liver, egg for strength, pepper for the
+nervous system. I don't know what Parmesan is for — perhaps just to remind me
+that pleasure exists. 
+
+(On his first night, my husband had takeout Indian. On his second, he made our
+pork chops and burned the sauce. I know this because he sent me downhearted text
+messages to that effect those nights, when we were both half-drunk on the bottle
+of wine we had each drunk — we were more accustomed to sharing.) 
+
+When the soup ran out almost a week later, I panicked. I'd found surprising
+comfort in eating the same dish over and over. A square meal now seemed like
+something from another lifetime. A week had also changed the prospect of
+ordering takeout; it was now less the emergency Seconal borrowed from a worldly
+friend and more the first step of a downward spiral ending who knows where. So
+instead I wandered the lush produce aisles of an organic market. I lingered over
+a gleaming, dark eggplant, attracted to its weightiness on a day when I felt I
+might just float off the earth. But in the end a basket of emerald-hued okra
+seduced me. I bought an enormous bag and took them "home." There was too much
+for my pan. (I had one in the old apartment, our apartment, that would have
+done.) So I sautéed them in two batches on high heat with a bit of olive oil and
+red-pepper flakes, until the pods had softened a bit and browned in places but
+retained their crispness and jewel-like color. And that was my entire
+dinner. They were crunchy but voluptuous. The slight sliminess of the okra
+captured the heat of the pepper, so it coated my tongue and burned. I ate them
+like a dog scarfing down its favorite treat, until I felt sick. It was like
+slamming my fingers in a drawer to get rid of a headache: painful, but not
+ineffective. 
+
+I lay on my sad red futon for a long time, digesting, while the girly music I
+only ever listen to when I'm alone played tinnily on my laptop. In another
+borough, my husband was doing the same, listening to Public Enemy or the
+Replacements. I realized I had no idea what he'd eaten. 
+
+My stomach rumbled, loud in the unfamiliar solitude. Maybe one day, I thought,
+my husband and I would eat our meat and two sides together again. (As I write,
+several months later, we are.) Though the pleasure was interrupted by a pinprick
+of remorse, that night I wanted to be there, alone with my simple dinner and my
+aching but quiet heart."""]        
+  );
+
+  e:notes (
+    [a:content """Adapted from "Mastering the Art of French Cooking.""" ]
+  );
+
+  e:yield [
+    e:makes """6 servings for one."""
+  ];
+
+  dc:source [
+    dc:author "Julie Powell" ;
+    dc:publication "The New York Times Magazine" ;        
+    dc:identifier "http://www.nytimes.com/2006/04/02/magazine/02food.html" ;
+  ];
+
+  a e:recipe;
+  dc:language "en-ca";
+  dc:identifier "$Id: garlic_soup_with_poached_eggs.n3,v 1.5 2007/12/26 02:20:43 asc Exp $";
+  .

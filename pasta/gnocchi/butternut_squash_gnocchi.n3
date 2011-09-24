@@ -1,0 +1,89 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Gnocchi di Zuca"; 
+  dc:alternate "Butternut Squash Gnocchi"; 
+
+  e:stage [
+    dc:title "The pasta" ;
+    e:ingredients (
+     [e:amount "1"; e:measure M:kg; e:foodstuff "butternut squash"; ]
+     [e:amount "1"; e:measure M:kg; e:detail "about 5 good sized";e:foodstuff "potatoes"; e:detail "Idaho";]
+     [e:amount "1"; e:measure I:cup; e:detail "plus enough for kneading";e:foodstuff "semolina"; ]
+     [e:amount "2"; e:foodstuff "egg"; e:detail "yolks";]
+    );
+
+  ];
+
+  e:stage [
+    dc:title "The sauce" ;
+
+    e:ingredients (
+     [e:amount "3"; e:measure "large"; e:foodstuff "leeks"; ]
+     [e:amount "3-4"; e:measure I:Tbsp; e:foodstuff "pine nuts"; e:detail "or whatever suits your fancy, really.";]
+     [e:amount "1/3-1/4"; e:measure I:cup; e:foodstuff "butter"; ]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "white wine"; ]
+     [e:amount "2"; e:measure I:tsp; e:foodstuff "thyme"; e:detail "or simply to taste";]
+    );
+
+    e:directions (
+        [a:content """In a bare pan, over a low to medium heat, brown the pine nuts. Set aside.
+
+Clean the leeks and remove the tough, green parts of the stem. Cut each leek in half
+lengthwise and then slice into pieces 1/3 inch wide.
+
+Heat a large pan over a medium heat and add the butter. Add the herbs and leeks and let
+them cook until they are soft. Add the pine nuts.
+
+Add the wine and raise the temperature slightly. Keep an eye on the sauce and
+stir occassionally.The idea is to cook off most of the wine. There should be
+enough liquid left over, by the time the gnocchi is cooked, to coat all the
+pasta but not so much that it is swimming in the sauce. This is a good time to
+start the water for the gnocchi."""
+    ]);
+
+  ];
+
+  e:time [
+    e:preparation "1H15M"; 
+    e:cooking "15M"; 
+  ];
+
+  e:yield [
+    e:makes "6-8 servings"; 
+  ];
+
+  e:notes (
+
+    [a:content """The recipe calls for butter, but like many things, it can be made with olive oil and be
+just as tasty. I would adjust the amounts according, though. A quarter of a cup of oil is
+liable to be pretty gross."""; 
+    a:author "[[http://www.aaronstraupcope.com/whois][asc]]"; 
+    dc:date "20021203T02:20:47 -0500"; ]
+
+    [a:content """I was taught to make gnocchi using only the yolk of an egg, however I've grown partial
+to using the whole thing. That said, I would not use the whites in this recipe since the
+additional moisture will just make it even harder to work the dough."""; 
+    a:author "[[http://www.aaronstraupcope.com/whois][asc]]"; 
+    dc:date "20021203T02:20:47 -0500"; ]
+  );
+
+  e:history (
+    [a:content """I learned to make this at the Mezza Luna cooking school, in early November 2002.We ate a plain gnocchi with a gorgonzola and cream sauce, a spinach gnocchi with a
+tomato and onion and red-pepper sauce and this recipe.Afterwards, I walked over to Cafe Italia and called Sarah who wasn't home. I ordered
+some tiny-coffee and watched the Habs lose the hockey game.Three days later, I had my wisdom teeth removed."""; 
+    a:author "[[http://www.aaronstraupcope.com/whois][asc]]"; 
+    dc:date "20021203T02:30:48 -0500" ]
+  );
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: butternut_squash_gnocchi.n3,v 1.3 2007/12/26 07:18:11 asc Exp $" ;
+  .         

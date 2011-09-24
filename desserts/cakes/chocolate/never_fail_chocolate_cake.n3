@@ -1,0 +1,74 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix del:      <http://del.icio.us/tags/> .
+
+<#>
+         
+  dc:title "Never-fail Chocolate Cake"; 
+  dc:subject (del:dessert del:cake );
+
+  e:ingredients (
+     [e:amount "2"; e:measure "squares"; e:foodstuff "chocolate"; e:detail "sweetened";]
+     [e:foodstuff "butter"; e:detail "size of an egg";]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "water"; e:detail "hot";]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "flour"; ]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "sugar"; ]
+     [e:measure "pinch"; e:foodstuff "salt"; ]
+     [e:amount "1"; e:foodstuff "egg"; ]
+     [e:amount "3/4"; e:measure I:tsp; e:foodstuff "baking soda"; ]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "milk"; e:detail "sour";]
+     [e:amount "1"; e:measure I:tsp; e:foodstuff "vanilla"; ]
+  );
+
+  e:directions (
+    [a:content """Sift together the flour and baking soda and put aside.
+
+Sour the milk (add about a teaspoon of lemon juice or vinegar and stir until it
+curdles) and put aside.
+
+Shave the chocolate in a saucepan large enough to mix the cake in, add the butter and
+hot water, and place over low heat; stir until thickened.
+
+Remove from the flame and add sugar, salt, and egg.
+
+Then add the sifted flour and soda alternately with the sour milk. Add vanilla. Pour
+into a greased and floured 8- or 9- inch square pan (or double the recipe and use layer
+cake tins).
+
+Bake in a slow oven (325 F) for 20-25 minutes until it pulls away a little from the sides
+of the pan.""";]
+  ); 
+
+  e:notes (
+    [a:content """The family icing is a little hard to define in precise amounts, but in an electric
+mixer put softened butter (about 1/3 stick), Hershey's cocoa, Confectioners sugar,
+vanilla, and light cream or milk. Turn it on and more of whatever seems right for amount,
+colour, and consistency. Beat at high speed for 5 minutes at least. It should make a soft
+"swirl" pattern."""; 
+    a:author "[[#][Pat Novak]]"; 
+    dc:date "1989--T00:00:00 -0500"; ]
+  );
+
+  e:history (
+    [a:content """Whenever our family talked about chocolate cake, this was it! All other chocolate
+cakes had to be identified with all their adjectives. It is a gem - is there anyone out
+there who needs to be convinced?Moist, very chocolatey, and a wonderful mix for chocolaholics. The recipe has been
+around for a very long time. Dottie's recipe card calls it "Bess' Chocolate Cake" - and
+her Aunt Bess would be at least 125 were she living as this is written!"""; 
+    a:author "[[#][Pat Novak]]"; ]
+  );
+
+  dc:source [
+    dc:publication "Dottie's Cookbook"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: never-fail_chocolate_cake.n3,v 1.2 2007/12/26 02:20:41 asc Exp $" ;
+  .
+         

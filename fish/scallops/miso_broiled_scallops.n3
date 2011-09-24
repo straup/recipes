@@ -1,0 +1,51 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Miso-Broiled Scallops"; 
+
+  e:ingredients (
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "miso"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "mirin"; ]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "onion"; e:detail "minced";]
+     [e:amount "1 1/2"; e:measure I:pound; e:foodstuff "scallops"; ]
+     [e:amount "1"; e:foodstuff "lime"; e:detail "juiced";]
+     [e:foodstuff "salt"; ]
+     [e:foodstuff "cayenne pepper"; ]
+  );
+
+  e:directions (
+    [a:content """Put miso in a bowl. Add mirin or wine. Whisk until smooth, adding more mirin if needed.
+Stir in onion, a pinch of salt and of cayenne. Combine scallops, let sit 10 minutes.
+Cook right away, or cover and refrigerate for up to a day. When ready to cook, heat a broiler
+(or grill), setting the rack as close as possible to the heat source.
+
+Broil until lightly browned, without turning, 2 to 3 minutes, or grill, turning once
+after a minute or two. Sprinkle with lime juice, and serve.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  e:notes (
+    [a:content """You may also use a fruity, or dry, white wine in place of the mirin."""; 
+    a:author "[[#][Aaron Cope]]"; 
+    dc:date "2001-11-07T00:00:00 -0500"; ]
+  );
+
+  dc:source [
+    dc:publication "New York Times"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: miso_broiled_scallops.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

@@ -1,0 +1,65 @@
+# -*-n3-*-
+
+@prefix xml:     <http://www.w3.org/XML/1998/namespace/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix xi:      <http://fixme.com/xinclude#> .
+
+<#>
+
+  dc:title        "Profiteroles" ;
+
+  e:time [
+   e:preparation "10M";
+   e:cooking  "20M";
+  ];
+
+  e:ingredients (
+        [e:amount "2/3"; e:measure I:cup; e:foodstuff "water" ]
+        [e:amount 4; e:measure I:Tbsp; e:foodstuff "butter"; e:detail "sweet" ]
+        [e:amount 1; e:measure I:Tbsp; e:foodstuff "sugar"; e:detail "granulated" ]
+        [e:amount 0.5; e:measure I:tsp; e:foodstuff "salt" ]
+        [e:amount 1; e:measure I:cup; e:foodstuff "flour"; e:detail "all-purpose; unbleached; sifted" ]
+        [e:amount 4; e:foodstuff "egg"; e:detail "room temperature" ]
+        [e:amount 1; e:amount I:pint; e:foodstuff "ice cream"; e:detail "vanilla" ]
+  );
+
+   e:directions (
+      [a:content """Preheat oven to 450 {F:degrees}. Grease a cookie sheet.
+
+In a heavy saucepan, combine water, butter, sugar and salt. Bring to a
+boil. Remove from heat and add flour all at once. Stir hard until mixture forms
+a ball in the middle of the saucepan. Cool slightly.
+
+Add eggs, one at a time, beating after each addition until dough shines.
+
+Drop rounded teaspoons of dough onto cookie sheet. Set on the middle rack
+of the overn and bake for 5 minutes, then reduce heat to 350
+{F:degrees}. Continue baking until sides of puffs are completely firm and colour
+is golden brown, about fifteen minutes. Cool puffs on a cake rack."""]
+   );
+
+   e:yield [
+     e:makes "4-6 portions"
+   ];
+
+   e:notes (
+     [a:content """This is a shortened version of the original recipe."""]
+   );
+
+   e:history (
+      [a:link <http://www.flickr.com/photos/laloyd/28830882/> ]
+      [a:link <http://www.flickr.com/photos/fraying/28052331/> ]
+   );
+
+   dc:source [
+      dc:title "The Silver Palete Cookbook";
+      dc:identifier <urn:isbn:0-89480-204-6>
+   ];
+
+  a               e:recipe ;
+  dc:identifier   "$Id: profiteroles.n3,v 1.5 2007/12/26 02:20:42 asc Exp $" ;
+  xml:lang        "en" ;
+  .

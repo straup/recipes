@@ -1,0 +1,44 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Sole Duglere"; 
+
+  e:ingredients (
+     [e:amount "4"; e:measure "fillets"; e:foodstuff "sole"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "butter"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "onion"; e:detail "chopped finely";]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "fish stock"; ]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "white wine"; e:detail "dry";]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "canned tomatoes"; e:detail "drained and coarsely chopped";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "parsley"; e:detail "minced";]
+     [e:amount "1/8"; e:measure I:tsp; e:foodstuff "black pepper"; e:detail "freshly ground";]
+  );
+
+  e:directions (
+    [a:content """Roll fillets and secure with toothpicks. In skillet heat butter, add onion and cook
+until transparent.
+
+Arrange fillets in pan; pour stock and wine over them. Add tomatoes and parsley and
+bring to a boil. Reduce heat and cook gently until the fish flakes easily when tested with
+a fork (10-12 mintues). Turn carefully while cooking.
+
+Remove the fillets to a serving dish and keep warm. Stir sauce over high heat, 2-3
+minutes, until slightly reduced. Add the pepper and pour the sauce over fillets.""";]
+  ); 
+
+  dc:source [
+    dc:publication "Moby Hill (Carl Hiller)"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: sole_duglere.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

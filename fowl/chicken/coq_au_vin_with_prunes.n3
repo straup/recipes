@@ -1,0 +1,90 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Coq au Vin with Prunes"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "olive oil"; ]
+     [e:amount "1"; e:foodstuff "chicken"; e:detail "cut into serving pieces";]
+     [e:amount "2"; e:measure "medium"; e:foodstuff "onion"; e:detail "chopped";]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "salt pork or bacon"; e:detail "minced";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "garlic"; e:detail "minced";]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "prunes"; e:detail "pitted";]
+     [e:amount "2"; e:measure I:cup; e:foodstuff "Burgundy or Pinot Noir"; ]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "butter"; e:detail "optional";]
+     [e:foodstuff "parsley"; e:detail "for garnish";]
+  );
+
+  e:directions (
+    [a:content """Put oil in a large skillet, preferably nonstick, and turn heat to medium-high. A
+minute later, add as many chicken pieces as will fit without crowding, skin side down.
+Cook, rotating pieces and adjusting heat as necessary to cook them evenly, until nicely
+browned on skin side, about 5 minutes; turn and brown on other sides. As pieces are done,
+sprinkle them with salt and pepper, transfer them to a large casserole, and add
+remaining pieces. The entire process will take about 15 minutes.
+
+When chicken is all browned, add onions to fat remaining in skillet; cook over
+medium-high heat, stirring occasionally, until softened, 3 to 5 minutes, then transfer
+them to casserole. Add salt pork or bacon to skillet, if you are using one of them, and cook,
+stirring occasionally, until brown and crisp, about 5 minutes; transfer to
+casserole and drain all but 1 tablespoon of fat. Turn heat to medium, add garlic and, 30 seconds
+later, the prunes. Cook for a minute, stirring once or twice, then add to casserole.
+
+Turn heat under skillet to high and add half the wine. Cook, stirring and scraping
+bottom of pan to remove any solid particles there, until wine is reduced by half. Pour into
+casserole along with remaining wine. Turn heat under casserole to high and bring to a
+boil; stir, then reduce heat to low and cover. Simmer, stirring once or twice, until
+chicken is done, about 30 minutes. Remove top, stir in optional butter, if using, and
+raise heat to high; cook until sauce thickens a bit. Taste and adjust seasoning if
+necessary. Garnish with parsley and serve.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  e:notes (
+    [a:content """The standard coq au vin, even when it is made with shortcuts, is a hearty dish, what
+with its bacon, garlic, deep red wine and enrichment of butter. But the one I like best is
+made with prunes: it's darker, richer, fuller, the kind of recipe one adores and makes repeatedly.Generally speaking, poultry (or any meat) cooked with dried fruit works well.
+Because dried fruit has more concentrated levels of acidity and flavor and less water than
+fresh fruit, it usually combines better with savory foods.In this instance, the prunes melt into the wine and become barely recognizable,
+bringing even more depth, not only of color but of flavor. Despite its relative ease of
+preparation, this becomes a serious dish, the kind that demands plenty of bread so that you
+can linger over the juices.None of this can happen without at least a little bit of effort. The chicken must be
+well- browned before proceeding with the dish, and in this instance there is no hurrying
+the process: take your time, brown each piece of chicken well, secure in the knowledge
+that the rest of the dish is dead easy and that you'll thank yourself at the table. When
+you finish browning the chicken, you soften some chopped onions in the remaining fat,
+then brown some bacon or salt pork, followed by garlic and prunes. Finally, you deglaze
+the remaining bits of all of those ingredients with red wine before simmering the
+chicken in the mixture and finishing with a little butter.I've made both the bacon and the butter optional in the recipe below and, indeed, the
+dish still merits all the adjectives used above without either of them. But the amount
+of each is probably insignificant from a health perspective when divided by four, and
+the smokiness contributed by the bacon and richness added by the butter are both
+noticeable and luxurious. Should you choose not to use the bacon, you might soak a half-ounce
+of porporcini mushrooms those from Chile, which are often dried over wood and
+therefore as smoky as bacon, are a good choice -- in a cup of hot water, then add them and the water
+to the skillet along with the wine (reduce the amount of wine by a half cup). This
+results in an equally delicious dish.There are other possible variations: sauti a cup or so of sliced button (white)
+mushrooms in the skillet, either instead of the bacon or after it. Similarly, you can brown a
+dozen or so peeled pearl onions at that stage, with or without the mushrooms (don't,
+however, omit the chopped onions), or a dozen or more whole cloves of garlic."""; 
+    a:author "[[#][Mark Bittman]]"; ]
+  );
+
+  dc:source [
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: coq_au_vin_with_prunes.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

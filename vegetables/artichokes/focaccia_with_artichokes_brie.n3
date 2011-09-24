@@ -1,0 +1,53 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Focaccia with Artichokes and Brie"; 
+  dc:alternate "Focaccia con Brie e Carciofi"; 
+
+  e:ingredients (
+     [e:amount "5"; e:foodstuff "artichokes"; ]
+     [e:amount "3"; e:measure I:Tbsp; e:foodstuff "extra-virgin olive oil"; ]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "pizza dough"; e:detail "store bought";]
+     [e:amount "5"; e:measure I:oz; e:foodstuff "Brie"; e:detail "cut into thin slices";]
+  );
+
+  e:directions (
+    [a:content """Trim the artichokes and remove the tough outer layers. Scoop out the hairy inner
+choke and slice thinly.
+
+In an 8" skillet, saute the artichokes in the olive oil for 3 minutes over medium heat;
+season with salt. Add 1/2 cup of water to the pan, cover, and cook for 10 minutes, or
+until tender.
+
+Meanwhile, preheat the oven to 375 degrees. Generously oil a 10" round pizza pan and
+line it with the pizza dough, pressing with your fingers so the dough extends to the
+sides of the pan.
+
+Bake for 20 minutes, or until golden and lightly crisp. Turn on the broiler.
+
+Top the focaccia with the sauteeds artichokes, arrange the Brie over it in a sunburst
+pattern, and broil for 5 minutes, or until the Brie begins to melt.Serve hot, dividing the focaccia in 4 sections as a first course or in 8 as an appetizer.""";]
+  ); 
+
+  e:notes (
+    [a:content """To ues an Italian cheese, opt for Taleggio or Robiola di Roccaverano instead of the
+Brie. An in order to avoid burning the focaccia in the broiler after you top it with the
+cheese, set the rack 10" from the heating element."""; 
+    a:author ""; ]
+  );
+
+  dc:source [
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: focaccia_with_artichokes_brie.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

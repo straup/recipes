@@ -1,0 +1,52 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Pasta with Tuscan Duck Sauce"; 
+
+  e:ingredients (
+     [e:amount "2"; e:foodstuff "duck legs"; ]
+     [e:amount "1"; e:measure "medium"; e:foodstuff "onion"; e:detail "chopped";]
+     [e:amount "1 1/2"; e:measure I:cup; e:foodstuff "dry red wine"; ]
+     [e:amount "1"; e:measure "28-ounce can"; e:foodstuff "plum tomatoes"; e:detail "chopped";]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "cut pasta"; e:detail "like penne";]
+     [e:foodstuff "pecorino Romano cheese"; e:detail "grated";]
+  );
+
+  e:directions (
+    [a:content """Trim visible fat from duck legs, then lay them, skin side down, in a 10-inch skillet.
+Turn heat to medium; when duck begins to sizzle, turn heat to low and cover. Cook
+undisturbed about an hour (check once to be sure legs aren't burning); the skin should be
+golden brown. Turn and cook until duck is very tender, at least 30 minutes.
+
+Remove duck and set aside. Add onion to skillet and turn heat to medium-high. Cook,
+stirring occasionally, until onion is soft, about 5 minutes. Set a large pot of salted
+water to boil for the pasta.
+
+Add wine to skillet and raise heat to high; cook until liquid is reduced by about half.
+Add tomatoes and some salt and pepper, and cook over medium-high heat, stirring
+occasionally, until mixture is saucy, about 15 minutes. Taste and adjust seasoning.
+
+Meanwhile, shred duck from bone and add it to sauce as it cooks. A few minutes after
+adding tomatoes, cook pasta. When it is tender but not mushy, drain it and serve it with
+sauce, along with cheese.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: pasta_with_tuscan_duck_sauce.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

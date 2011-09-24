@@ -1,0 +1,52 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Braised Duck Legs With Pinot Noir Sauce"; 
+
+  e:ingredients (
+     [e:amount "8"; e:foodstuff "duck legs"; ]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "herbes de Provence"; ]
+     [e:amount "2"; e:measure I:cup; e:foodstuff "Pinot Noir"; ]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "olive oil"; ]
+     [e:amount "1"; e:foodstuff "shallot"; e:detail "minced";]
+     [e:amount "1"; e:measure "sprig"; e:foodstuff "fresh thyme"; ]
+     [e:amount "1"; e:foodstuff "bay leaf"; ]
+     [e:amount "2"; e:measure I:cup; e:foodstuff "duck or chicken stock"; ]
+  );
+
+  e:directions (
+    [a:content """Preheat oven to 375 degrees. Season the duck legs well on both sides with salt and
+pepper. Crumble herbes de Provence evenly over all sides. Lay legs skin-side up in a 3-
+inch-deep baking dish just large enough to hold all of them in a single layer. Roast 1 hour.
+
+our off duck fat from baking dish and reserve for another use. In a small saucepan,
+heat pinot noir to a bare simmer. Pour over legs so that meat is immersed but skin is
+exposed. Roast 30 minutes, or until skin is golden red.
+
+Meanwhile, heat olive oil in small saucepan and cook shallot until lightly colored.
+Add thyme, bay leaf and 2 cups stock. Bring to a boil and cook until reduced by half,
+skimming frequently. Add 2 cups more stock and continue cooking, reducing and skimming
+until all the stock has been added.
+
+Remove legs from roasting pan and keep warm. Pour braising liquid into measuring
+cup. Add 1 cup to saucepan with stock and cook until reduced enough to lightly coat the back
+of a spoon. Strain through a fine sieve. Season with salt and pepper. Arrange duck legs
+on serving plates (over mixed greens, if you like) and pour sauce on top.""";]
+  ); 
+
+  dc:source [
+    dc:publication "New York Times"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: duck_legs_with_pinotnoir.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

@@ -1,0 +1,49 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Filet of Sole with Grapes"; 
+
+  e:ingredients (
+     [e:amount "1/2"; e:measure I:pound; e:foodstuff "sole"; e:detail "filets";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "butter"; ]
+     [e:amount "3"; e:measure "large"; e:foodstuff "mushrooms"; e:detail "sliced";]
+     [e:amount "24"; e:foodstuff "grapes"; e:detail "seedless";]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "sour cream"; ]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "mayonnaise"; ]
+     [e:amount "1/4"; e:foodstuff "lemon"; e:detail "juiced";]
+  );
+
+  e:directions (
+    [a:content """Preheat ove to 350 F.
+
+Generously butter au gratin or shallow dish. Arrange fish in dish.
+
+Saute mushrooms in butter until softened. Add grapes, stirring gently.
+
+Add remaining ingredients and blend well. Spoon over fish.
+
+Tent with foil and bake about 20 minutes.""";]
+  ); 
+
+  e:notes (
+    [a:content """"Tent with foil"?"""; 
+    a:author "[[#][Aaron Cope]]"; 
+    dc:date "2001-11-23T00:00:00 -0500"; ]
+  );
+
+  dc:source [
+    dc:publication "Beryl"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: sole_with_grapes.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

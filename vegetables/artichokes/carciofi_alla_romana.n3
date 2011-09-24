@@ -1,0 +1,58 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix del:      <http://del.icio.us/tags/> .
+
+<#>
+         
+  dc:title "Carciofi alla Romana"; 
+  dc:alternate "Roman artichokes"; 
+  dc:subject (del:vegetables );
+
+  e:ingredients (
+     [e:foodstuff "artichokes"; ]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "water"; ]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "olive oil"; ]
+     [e:foodstuff "garlic"; ]
+     [e:foodstuff "mint"; ]
+  );
+
+  e:directions (
+    [a:content """Clean chokes, including lots of leaves
+
+Skin the stem and cut off the top
+
+Put artichikes in a shallow pan with water, oil, salt and pepper, mint.
+
+Cook, covered, until soft (20-30 minutes)""";]
+  ); 
+
+  e:notes (
+    [a:content """vegetarian:
+
+"""; 
+    a:author "[[http://www.aaronstraupcope.com/whois][asc]]"; 
+    dc:date "2002-12-03T14:16:51 -0500"; ]
+    [a:content """You may also use parsley in the place of the mint."""; 
+    a:author "[[#][Aaron Cope]]"; 
+    dc:date "2001-09-10T00:00:00 -0500"; ]
+  );
+
+  e:history (
+    [a:content """I got this recipe from Bill. He made it for flatfishnight once, I think."""; 
+    a:author "[[#][Aaron Cope]]"; ]
+  );
+
+  dc:source [
+    dc:publication "Billiam"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: carciofi_alla_romana.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

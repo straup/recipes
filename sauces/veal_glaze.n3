@@ -1,0 +1,72 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Veal Stock"; 
+
+  e:ingredients (
+     [e:amount "6"; e:measure I:pound; e:foodstuff "veal bones"; e:detail "cut into 2-to-3-inch pieces by the butcher";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "vegetable oil"; ]
+     [e:amount "2"; e:foodstuff "onions"; e:detail "halved";]
+     [e:amount "2"; e:foodstuff "carrots"; e:detail "sliced into three pieces";]
+     [e:amount "1"; e:measure "rib"; e:foodstuff "celery"; e:detail "sliced into three pieces";]
+     [e:amount "2"; e:measure "clove"; e:foodstuff "garlic"; ]
+     [e:amount "1 1/2"; e:measure I:pound; e:foodstuff "veal stew meat"; e:detail "cut into two 2-inch chunks";]
+     [e:amount "6"; e:foodstuff "cloves"; e:detail "whole";]
+     [e:amount "3"; e:measure "sprigs"; e:foodstuff "thyme"; e:detail "or 1/2 teaspoon dried";]
+     [e:amount "1"; e:foodstuff "bay leaf"; ]
+     [e:amount "3"; e:measure "stem"; e:foodstuff "parsley"; ]
+     [e:amount "10"; e:foodstuff "peppercorns"; ]
+  );
+
+  e:directions (
+    [a:content """Preheat the oven to 425 degrees.
+
+Rinse the veal bones and pat them dry; toss the bones with the oil.
+
+In a deep roasting pain, add the veal bones and roast, turning occasionally, until
+the bones begin to brown, about 30 minutes.
+
+Add the onions, carrots, celery and garlic to the pan, toss well and continue to
+roast, turning occasionally, until deeply browned, about 40 minutes more.
+
+Using tongs, transfer the bones and vegetables to a large stockpot and add the veal
+meat. Pour off and discard any excess oil from the roasting pan and place the pan over
+medium heat.
+
+When hot, pour in 1 1/2 cups water, scrape up any brown drippings from the bottom of the
+pan and add the mixture to the stockpot.
+
+Wrap the cloves, thyme, bay leaf, parsley and peppercorns in a small square of
+cheesecloth and add the bundle to the stockpot. Add 6 quarts (24 cups) cold water.
+
+Over medium heat, slowly bring the stock to a simmer; this will take about 45 minutes.
+Skim off any fat from or foam that rises to the surface. Continue to simmer the stock
+slowly, uncovered, for 6 hours, skimming as needed.
+
+Strain the stock through a fine-mesh strainer and discard the solids.To cool, pour the stock into a large kettle and place the kettle in a sink filled with
+cold water. Stir the stock occasionally. If the water in the sink becomes too warm, drain
+and refill with cold water.When the stock is completely cooled, pour into individual containers, cover them
+and refrigerate for atleast 24 hours. Before using, remove and discard the layer of
+congealed fat.Stock will keep refrigerated up to 3 days and frozen up to 6 months.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "New York Times Magazine"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: veal_glaze.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

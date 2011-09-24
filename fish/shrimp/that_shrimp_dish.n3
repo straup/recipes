@@ -1,0 +1,61 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "That Shrimp Dish"; 
+
+  e:ingredients (
+     [e:amount "6 1/2"; e:measure I:Tbsp; e:foodstuff "butter"; ]
+     [e:amount "4 1/2"; e:measure I:Tbsp; e:foodstuff "flour"; ]
+     [e:amount "3/4"; e:measure I:cup; e:foodstuff "milk"; ]
+     [e:amount "3/4"; e:measure I:cup; e:foodstuff "heavy cream"; ]
+     [e:amount "2"; e:measure I:pound; e:foodstuff "canned artichoke hearts"; e:detail "drained";]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "shrimp"; e:detail "cooked and deveined";]
+     [e:amount "1/4"; e:measure I:pound; e:foodstuff "mushrooms"; e:detail "freshly sliced";]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "sherry"; e:detail "dry";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "Worcestershire"; ]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "Permesan"; e:detail "grated";]
+     [e:foodstuff "paprika"; ]
+  );
+
+  e:directions (
+    [a:content """Preheat oven to 375 F.
+
+Melt 4 1/2 Tbsp of butter and stir in flour.
+
+Then add milk and cream, stirring ocassionally with wire whisk.
+
+When thickened and smooth, season with salt and pepper.
+
+Arrange artichoke hearts over bottom of buttered baking dish.
+
+Scatter shrimp over artichokes.
+
+Cook mushrooms in remaining butter for 6 minutes. Spoon over shrimp and artichokes.
+
+Add sherry and Worchestershire to cream sauce and pour it over contents of baking dish.
+
+Sprinkle with Parmesan and paprika.
+
+Bake 20-30 minutes.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "Moby Hill (Liz Levine)"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: that_shrimp_dish.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

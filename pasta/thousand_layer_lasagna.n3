@@ -1,0 +1,83 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix del:     <http://del.icio.us/tags/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+  dc:title "Thousand Layer Lasagna";
+  dc:subject "recipe pasta lasagna";
+
+  e:ingredients (
+    [e:amount 1; e:measure I:lb; e:foodstuff "fresh egg pasta sheets" ]
+    [e:foodstuff "butter"; e:detail "to prep baking dish" ]
+    [e:amount 3; e:measure I:Tbsp; e:foodstuff "olive oil"; e:detail "extra-virgin" ]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "sea salt"; e:detail "fine grain" ]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "red pepper flakes"; e:detail "crushed" ]
+    [e:amount 1; e:measure "clove"; e:foodstuff "garlic"; e:detail "chopped" ]
+    [e:amount 1; e:measure "28-ounce can";  e:foodstuff "tomatoes"; e:detail "crushed, organic" ]
+    [e:amount 1; e:foodstuff "lemon"; e:detail "zest of" ]
+    [e:amount 3; e:measure "4-ounce balls"; e:foodstuff "fresh mozzarella"; e:detail "torn up into little pieces" ]
+    [e:measure "handful";  e:foodstuff "basil"; e:detail "slivered; optional" ]
+    [e:foodstuff "Parmesan"; e:detail "freshly grated; optional" ]
+  );        
+
+  e:directions (
+    [a:content """Preheat your oven to 375. Start by clearing off every flat
+space in your kitchen, you are going to need and use all of it.
+
+Make your sauce: Place the olive oil, salt, pepper flakes, and garlic in a
+pan. Dial the heat up and saute for a minute or two. Add the tomatoes and slowly
+bring to a simmer as well. Remove from heat, stir in the lemon zest and taste
+for seasoning. Add more salt if needed. Set aside.
+
+Fill your biggest pot full of water and bring to a boil.
+Lavishly butter a deep, square baking dish. The one I use is 9x9 and 2
+1/2-inches deep.
+
+Thin out your pasta using a pasta machine. Start by cutting the big sheets into
+2-inch(ish) wide ribbons. This means making 2 cuts along the sheets. This should
+yield you about 12 2-foot strips. Run them through the pasta machine. I go to
+the 8 setting, one shy of the very thinnest setting. The sheets should almost be
+translucent. Cut the strips into manageable rectangles roughly 4-inches in
+length.
+
+Pre-cook the pasta: Fill a large bowl with cold water and a few glugs of olive
+oil. Place a large flour sack or cotton dish towel across one of your
+counters. Salt your pot of boiling water generously. Ok, now you are ready to
+boil off your pasta. Believe it or not, you are on the home stretch. Place a
+handful of the pasta rectangles into the boiling water to cook (I've found I can
+get away with about 20 at a time), fish them out (I use a pasta claw) after just
+15-20 seconds, don't over cook. Transfer them immediately to the cold olive-oil
+water for a quick swim and cool-off. Remove from the cold water bath and place
+flat and neat on the cotton towel. It is ok for them to overlap, I don't have a
+problem with the sheets sticking typically. Repeat until all your pasta is
+boiled.
+
+Pull it all together. Ladle a bit of the sauce into the bottom of the prepared
+baking dish. Cover the bottom with a layer of pasta sheets. Now a thin layer of
+sauce, and a bit of cheese. Go for another layer of pasta, then sauce, then
+pasta again, then sauce and cheese. Keep going until you've used up all the
+sauce and pasta. You want to finish with a layer of pasta. Top with the last of
+the sauce and the very last of the cheese so you have a nice cheesy top.
+
+Bake until everything is melted and fragrant, 35 minutes or so. Let it sit for
+10 minutes before serving, so everything has a chance to set up a bit. Dust with
+parmesan and a bit of slivered basil."""]        
+  );
+
+  e:notes (
+    [a:link "http://www.101cookbooks.com/mt-static/images/food/bestlasagne4.jpg"; ]         
+  );
+
+  dc:source [
+    dc:publication "101 Cookbooks" ;
+    dc:identifier "http://www.101cookbooks.com/archives/001386.html" ;
+  ];
+
+  a :recipe;
+  dc:language "en-us" ;
+  dc:identifier "$Id: thousand_layer_lasagna.n3,v 1.2 2007/12/26 02:20:42 asc Exp $"
+  .

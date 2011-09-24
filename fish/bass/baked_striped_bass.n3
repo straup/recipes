@@ -1,0 +1,50 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Baked Striped Bass"; 
+
+  e:ingredients (
+     [e:amount "4-5"; e:measure I:pound; e:foodstuff "bass"; ]
+     [e:amount "4"; e:measure "slices"; e:foodstuff "bacon"; e:detail "chopped";]
+     [e:amount "3"; e:measure "small"; e:foodstuff "onion"; e:detail "chopped";]
+     [e:amount "1/2"; e:foodstuff "green pepper"; e:detail "chopped";]
+     [e:amount "4"; e:measure "stalks"; e:foodstuff "celery"; e:detail "chopped";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "butter"; ]
+     [e:amount "1"; e:measure I:tsp; e:foodstuff "parsley"; e:detail "chopped";]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "white wine"; e:detail "dry";]
+  );
+
+  e:directions (
+    [a:content """Have fish cleaned and split without detaching halves. Open it, wipe, season.
+Arrange opened in shallow ovenproof dish.
+
+Preheat oven to 375 F.
+
+Cook bacon slowly. Pour off most of the fat. Keep some in pan. Add onions, green
+peppers, celery. When soft, add 1 Tbsp. butter and parsley. Wilt parsley. Season.
+
+Put mixture on half of fish. Fold over other half. Pour wine over. Dot surface with butter.
+
+Bake 30-45 minutes, or until done.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "Moby Hill (Liz Levine)"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: baked_striped_bass.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

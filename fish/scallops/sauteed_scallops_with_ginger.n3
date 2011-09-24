@@ -1,0 +1,47 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Sauteed Scallops with Ginger"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "vegetable oil"; ]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "butter"; e:detail "unsalted";]
+     [e:amount "3/4"; e:measure I:pound; e:foodstuff "sea scallops"; e:detail "halved horizontally";]
+     [e:amount "2"; e:measure I:tsp; e:foodstuff "fresh gingerroor"; e:detail "peeled and minced";]
+     [e:amount "1"; e:foodstuff "shallot"; e:detail "minced";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "scallion greens"; e:detail "minced";]
+     [e:amount "1"; e:measure I:tsp; e:foodstuff "lemon juice"; ]
+  );
+
+  e:directions (
+    [a:content """In a large heavy skillet heat the oil and the butter over moderately high heat until
+the foam subsides.
+
+In the fat saute the scallops, patted dry, for 30 seconds on each side, or until they
+are cooked through, and transfer them to a bowl.
+
+In the fat remaining, cook the gingerroot and the shallot over moderately low heat,
+stirring until the shallot is softened and stir in the scallion, the scallops with any
+juice that has accumulated in the bowl, the lemon juice and salt and pepper to taste.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "Gourmet"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: sauteed_scallops_with_ginger.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

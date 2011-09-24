@@ -1,0 +1,62 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Mushroom Barley Soup"; 
+
+  e:ingredients (
+     [e:amount "1/3"; e:foodstuff "dreid mushrooms"; e:detail "like porcini";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "oil"; ]
+     [e:amount "1"; e:measure "medium"; e:foodstuff "onion"; e:detail "diced";]
+     [e:amount "1"; e:measure "medium"; e:foodstuff "carrot"; e:detail "diced";]
+     [e:amount "2"; e:measure "cloves"; e:foodstuff "garlic"; ]
+     [e:amount "1/2"; e:measure I:pound; e:foodstuff "white mushrooms"; e:detail "washed, trimmed and coarsley cut";]
+     [e:amount "1/2"; e:measure I:pound; e:foodstuff "shiitake mushrooms"; e:detail "washed, trimmed and coarsley cut";]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "pearled barley"; ]
+     [e:amount "6"; e:measure I:cup; e:foodstuff "beef broth or stock"; e:detail "unsalted";]
+     [e:amount "3"; e:measure I:Tbsp; e:foodstuff "sherry"; e:detail "dry";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "wine vinegar"; ]
+     [e:foodstuff "salt"; ]
+     [e:foodstuff "pepper"; ]
+  );
+
+  e:time [
+    e:preparation "20M"; 
+    e:cooking "40M"; 
+  ];
+
+  e:directions (
+    [a:content """Cover dried mushrooms with 1 cup hot water, and set aside for 20 minutes. Drain,
+reserving liquid. Finely chop mushrooms.
+
+Heat oil in heavy-bottomed deep pot. Saut? onions and carrots over medium heat until
+onions begin to color. Add garlic, and saut? for 30 seconds.
+
+Add fresh mushrooms, and saute for 5 minutes, until they begin to release liquid.
+
+Raise heat and add barley; saut? until it begins to color. Add broth and sherry.
+Strain mushroom-soaking liquid and add to pot along with reconstituted mushrooms. Season
+with salt and pepper, and simmer for about 40 minutes, until barley is tender. Stir in
+vinegar; adjust seasonings and serve.""";]
+  ); 
+
+  e:yield [
+    e:makes "6 "; 
+  ];
+
+  dc:source [
+    dc:publication "The New York Times"; 
+    dc:identifier "http://nytimes.com/2002/12/18/dining/181WREX.html"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: mushroom_barley_soup.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

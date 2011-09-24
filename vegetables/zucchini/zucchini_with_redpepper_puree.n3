@@ -1,0 +1,63 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix del:      <http://del.icio.us/tags/> .
+
+<#>
+         
+  dc:title "Zucchini Stuffed with Red Pepper Puree"; 
+  dc:alternate "Courgettes a la puree de poivrons rouges"; 
+  dc:subject (del:vegetarian);
+
+  e:ingredients (
+     [e:amount "4"; e:foodstuff "red bell peppers"; ]
+     [e:amount "4-5"; e:measure I:Tbsp; e:foodstuff "olive oil"; ]
+     [e:amount "1/4"; e:measure I:tsp; e:foodstuff "thyme"; e:detail "dried";]
+     [e:amount "6"; e:measure "small"; e:foodstuff "zucchini"; e:detail "trimmed";]
+  );
+
+  e:directions (
+    [a:content """Preheat broiler. Broil peppers about 2 inches from the heat, turning them slightly
+every few minutes, until their skin blisters on all sides and turns black, about 15-20 minutes.
+
+Put the peppers in a plastic bag, close bag and let stand 10 minutes. Peel peppers,
+remove seeds and ribs and cut each pepper into 3 or 4 pieces.
+
+In a skillet, heat 2 tablespoons olive oil over medium heat. Add peppers, thyme and
+pinch of salt and pepper. Saute peppers for 1 minute on each side.
+
+Remove mixture from skillet and puree peppers until very smooth in a food processor
+or blender. Taste and adjust seasoning. (Puree can be kept, covered, 1 day in
+refridgerator; reheat before continuing.)
+
+Prepheat oven to 400 degrees F. In a large saucepan of boiling salted water, cook
+zucchini for 2 minutes. Rinse under cold running water and drain thoroughly.
+
+Cut each zucchini in half lengthwise. With a small sharp knife, carefully scoop
+seeds out of each half, leaving a boat-shaped shell; be careful not to pierce the sides.
+
+Put zucchini in an oiled shallow baking dish. Rub cut surfaces with remaining oil,
+and sprinkle with salt and pepper. Bake 5 minutes.
+
+Spoon pepper puree evenly into zucchini shells. Bake 10 more minutes, or until ends
+of zucchini are tender when pierced with a sharp knife. Serve hot or at room temperatur
+as a first course or side dish.""";]
+  ); 
+
+  e:yield [
+    e:makes " "; 
+  ];
+
+  dc:source [
+    dc:publication "Fresh From France"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: zucchini_with_redpepper_puree.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

@@ -1,0 +1,57 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix del:     <http://del.icio.us/tags/> .
+
+<#>
+
+  dc:title "Pâte Brisée";
+
+  dc:subject (del:recipe);
+
+  e:ingredients (
+    [e:amount 1; e:foodstuff "egg yolk"; ]
+    [e:amount 3; e:measure I:Tbsp; e:foodstuff "cold water"; ]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "salt"; ]
+    [e:amount 2; e:measure I:Tbsp; e:foodstuff "sugar"; ]
+    [e:amount 2; e:measure I:cup; e:foodstuff "flour"; e:detail "all-purpose"; ]
+    [e:amount 4.5; e:measure I:oz; e:foodstuff "butter"; e:detail "diced"; ]
+  );
+
+  e:directions (
+    [a:content """In a medium mixing-bowl, whisk together the egg yolk, water, salt, and 
+sugar. Set aside.
+
+In the bowl of your favorite food processor, preferably red, combine 
+the flour and butter, and process at low speed until the mixture 
+resembles coarse meal. Stop the processor. Pour in the liquid 
+ingredients all at once, and process just until the mixture comes 
+together.
+
+Turn out onto a lightly floured work surface. Divide in two and shape 
+each half into a flattened ball, without kneading. Wrap in plastic and 
+chill for at least 30 minutes before using. (If you only use one of the 
+balls, the other one can be frozen for up to a month.)"""; ]
+  );
+
+  e:history (
+    [a:link "http://chocolateandzucchini.com/archives/2006/04/laide_de_cuisine.php";  ]
+  );
+
+  e:yield [
+    e:makes """This makes enough for two 22 to 25-cm (9 to 10-inch) tarts, or twelve 
+10-cm (4-inch) tartlets.""";
+  ];
+
+  dc:source [
+    dc:publication "Chocolate & Zucchini";
+    dc:identifier "http://chocolateandzucchini.com/archives/2006/04/laide_de_cuisine.php";
+  ];
+
+  a e:recipe;
+  dc:language "en";
+  dc:identifier "$Id: pate_brise.n3,v 1.2 2007/12/26 02:20:42 asc Exp $";
+  .

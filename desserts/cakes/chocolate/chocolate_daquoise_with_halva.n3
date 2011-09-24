@@ -1,0 +1,87 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Bittersweet Chocolate Dacquoise with Halva Cream"; 
+
+  e:ingredients (
+  );
+
+  e:directions (
+    [a:content """For the meringue, preheat the ven to 250 degrees. Line 2 baking sheets with parchment
+paper; use a marker to trace three 8-inch circles onto paper. Turn paper marked side down.
+
+In a large bowl, sift together confectioners' sugar and cocoa powder; set aside. In
+the bowl of an electric mixer, whip egg whites until foamy. Add the cream of tartar and a
+tablespoon of the granulated sugar; whip until soft peaks form. With mixer running,
+gradually pour in rest of granulated sugar, and whip until very stiff peaks form. Fold a
+third of the egg whites into the sugar and cocoa mixture. Fold in remaining whites.
+
+Transfer mixture to a pastry bag fitted with a large plain tip or to a large resealable
+plastic bag with a corner cut off. Starting just within the circles marked on
+parchment paper, pipe rounds of batter, working inward in a spiral. Bake for 2 hours, then turn
+off oven; allow meringues to dry in oven until oven has cooled completely, atleast 4
+hours longer.
+
+For ganache, place chocolate in a bowl. In a saucepan, bring cream to a boil. Pour it
+over chocolate, and let site for 3 minutes. Starting in center, whisk well to combine.
+Refridgerate, covered, until thickened but still pourable, 1 to 2 hours.
+
+For halvah cream, pour milk into a saucepan and bring to a simmer. Meanwhile, in a
+large heatproof bowl, whisk together tahini, honey, cornstarch and egg yols. Pour a
+little bit of hot milk into tahini mixture, whisking constantly. Continue to whisk, and ad
+rest of milk to bowl. Pour mixture back into saucepan and bring to a boil, whisking
+constantly. Boil, whisking for 2-3 minutes until very thick. Transfer to a bowl, and whisk
+in half of crumbled halvah. Cover bowl with plastic wrap, and refridgerate until
+chilled, atleast 1 hour.
+
+Whip heavy cream just until it is thick enough to hold soft peaks. Gently fold cream
+and the remaining crumbled halvah into chilled tahini mixture.
+
+To assemble, set aside nicest meringue disk for top layer. Place one meringue layer
+in an 8-inch springform pan. Spread half of halvah cream over meringue. Place another
+round of meringue over cream. Pour ganache onto meringue in an even layer. Spread
+ganache with remaining halvah cream. Top with last round of meringue. Freeze for 1-2 hours.
+
+Before serving, run a knife around the edge of pan, then unfold dacquoise. Sift a thin
+layer of powdered sugar over top. To slice, use a serrated knife dipped in hot water.
+Wipe dry between cuts.""";]
+  ); 
+
+  e:history (
+    [a:content """Halvah, the Middle Eastern confection made from ground sesame seeds and sugar, is
+one of the most interesteing sweets there is. It has a terrific earthly favor, but what I
+really adore is its texture. At first it seems perfectly smooth, but as you chew a
+slighlty crunch emerges. It's as if it were made up of millions of sugary, wafer-thin caramel layers.While halvah is a great candy, its intriguing texture inspired me to use it in a
+dessert. But I needed to do so in a way that would highlight, rather than subdue, its aazing
+crunch. Dacquoise seemed just the right vehicle.This is because dacquoise, like halvah, is as much about texture as it is about
+flavour. The classic version is a layering of crisp meringue; soft ethereal mousseline
+cream; and dense ganache. When I make it in the traditional style, I like to accentuate its
+textural contrasts by sprinkling crushed nougatine into the cream, both to mimic the
+meringue and to interrupt the silkiness of the cream. Since halvah has the same kind of
+hard candy crunch as nougatine, this seemed a perfect opportunity to use it in a dessert.Halvah also adds an unusual, aromatic flavour. To play up this taste and accentuate
+its Middle Eastern origins, I like to use honey in place of sugar in the thick cream, and
+to add a little bit of tahini.The intensity of the halvah cream, however, needs a potent mate, which is why I chose
+cocoa for the meringues. Since meringue is made up of little more than egg white, sugar
+and air, it can be cloying. Cocoa powder tempers that tendency and gives the dacquoise a
+slight bitterness that matches perfectly with the halvah.To maintain the crispiness of the meringue, it's important to assemble this dessert
+as close to serving time as possible. Ideally, layer it together an ahour ahead, then
+freeze it. This brief freezing firms up the pastry cream so that it cuts cleanly. Once
+sliced, the dacquoise immediately defrosts, its marvelous textures intact."""; 
+    a:author "[[#][Bill Yosses]]"; ]
+  );
+
+  dc:source [
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: chocolate_daquoise_with_halva.n3,v 1.2 2007/12/26 02:20:41 asc Exp $" ;
+  .
+         

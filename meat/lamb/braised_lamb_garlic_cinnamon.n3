@@ -1,0 +1,60 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Braised Lamb with Garlic and Cinnamon"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "olive oil"; e:detail "extra virgin";]
+     [e:amount "2"; e:measure I:pound; e:detail "cut into 1- to 2-inch cubes";e:foodstuff "lamb"; e:detail "preferably from the shoulder";]
+     [e:foodstuff "salt"; e:detail "to taste";]
+     [e:foodstuff "pepper"; e:detail "to taste";]
+     [e:amount "5-6"; e:measure "cloves"; e:foodstuff "garlic"; e:detail "peeled and slivered";]
+     [e:amount "6"; e:measure "3-inch pieces"; e:foodstuff "cinnamon"; ]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "white wine"; e:detail "you may also use stock or water";]
+     [e:amount "4"; e:foodstuff "plam tomatoes"; e:detail "chopped";]
+     [e:amount "1"; e:foodstuff "lemon"; e:detail "quartered";]
+  );
+
+  e:time [
+    e:preparation "30M"; 
+    e:cooking "1H30M"; 
+  ];
+
+  e:directions (
+    [a:content """Put oil in a large, deep skillet over medium-high heat. A minute later, add as many
+chunks of lamb as will fit without crowding (cook in batches, if necessary).
+
+When meat browns (3 to 4 minutes) turn chunks and sprinkle them with salt and pepper.
+Adjust heat so pieces brown as rapidly as possible without burning.
+
+After each has browned on 2 sides, remove from pan and add another piece or two until
+all meat has been browned (10 to 15 minutes).
+
+When all meat has been removed from pan, turn off heat and allow the pan to cool a bit.
+Turn heat back to medium and add garlic and cinnamon.
+
+Cook for about 30 seconds, then add the wine; raise heat to high and let wine bubble
+away for a minute. Add the tomatoes and cook, stirring occasionally, for about a minute.
+
+Return meat to pan and cover; adjust heat so mixture bubbles very gently. (If it cooks
+too quickly, you may have to add a little water.)
+
+Cook, undisturbed, until meat is very tender, about 1 1/2 hours.Taste and adjust seasoning, then serve over rice or buttered noodles, with lemon wedges."""]
+  ); 
+
+  dc:source [
+    dc:publication "The New York Times"
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: braised_lamb_garlic_cinnamon.n3,v 1.4 2007/12/26 07:11:27 asc Exp $" ;
+  .
+         

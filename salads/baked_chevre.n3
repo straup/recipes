@@ -1,0 +1,67 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Baked Chevre with Watercress and Spinach"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure I:cup; e:foodstuff "olive oil"; ]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "bread crumbs"; e:detail "fine";]
+     [e:amount "10"; e:measure I:oz; e:foodstuff "goat cheese"; e:detail "cut in six rounds, 3/4 inch thick";]
+     [e:amount "1"; e:measure "small bunch (about 4 ounces)"; e:foodstuff "spinach"; e:detail "fresh, rinsed and thoroughly dried";]
+     [e:amount "1"; e:measure "bunch"; e:foodstuff "watercress"; e:detail "rinsed and dried";]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "sherry vinegar"; ]
+     [e:amount "2"; e:measure "small cloves"; e:foodstuff "garlic"; e:detail "finely minced";]
+     [e:amount "2"; e:measure I:tsp; e:foodstuff "Dijon mustard"; ]
+     [e:foodstuff "pepper"; e:detail "freshly ground, to taste";]
+     [e:amount "6"; e:foodstuff "sun-dried tomatoes"; ]
+     [e:amount "1"; e:measure "small"; e:foodstuff "red pepper"; ]
+  );
+
+  e:directions (
+    [a:content """Spoon 1/4 cup of the olive oil into a smal bowl. Spoon the breadcrumbs into another bowl.
+
+Cut the cheese into six rounds about 3/4 inch thick. Soak the cheese rounds in the
+olive oil to coat thoroughly and then roll in the bread crumbs to cover thickly.
+
+Place the cheese rounds on a cookie sheet and refrigerate for an hour.
+
+Remove stems from the spinach and watercress and slice the leaves into thin shreds.
+Refridgerate in a bowl.
+
+Prepare the garnish: thinly slice the sun-dried tomatoes or finely dice the red
+pepper and reserve.
+
+Just before serving, preheat the oven to 400 degrees F. Bake the breaded rounds of
+cheese until brown and beginning to soften (about 5-8 minutes).
+
+While the cheese is baking, mix the remaining olive oil with the vinegar, garlic,
+mustard, and pepper until smooth. Divide the greens on six salad plates, pour dressing on
+the greens, and toss.
+
+As soon as the cheese is finished is finished baking, place a round of cheese on each
+bed of greens and sprinkle the desired garnish on top. Serve at once.""";]
+  ); 
+
+  e:history (
+    [a:content """As a first course, this is a mighty hard act to follow. Imagine sitting at the table at
+Moby Hill and each person being presented with a plate (especially a Tiffany plate!) of
+this spectacle - it was, indeed a happening, and long remembered."""; 
+    a:author "[[#][Pat Novak]]"; ]
+  );
+
+  dc:source [
+    dc:publication "Dottie's Cookbook"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: baked_chevre.n3,v 1.2 2007/12/26 02:20:43 asc Exp $" ;
+  .
+         

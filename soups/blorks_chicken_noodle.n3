@@ -1,0 +1,113 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix del:     <http://del.icio.us/tag/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+  dc:title "Blork's Chicken Noodle Soup" ;
+
+  e:ingredients (
+    [e:amount 5; e:measure M:litre; e:foodstuff "water"]
+    [e:amount 4; e:foodstuff "chicken quarters"; e:detail "leg and thigh"]
+    [e:amount 4; e:foodstuff "onion"; e:detail "two quartered (skins and all) and two chopped"]
+    [e:amount 8; e:measure "clove"; e:foodstuff "garlic"; e:detail "four smashed in their skin and four minced"]
+    [e:amount 4; e:measure "stalk"; e:foodstuff "celery"; e:detail "one cut in large chunks and three diced"]
+    [e:amount 4; e:foodstuff "carrot"; e:detail "diced"]
+    [e:amount 2; e:measure I:Tbsp; e:foodstuff "olive oil"]
+    [e:amount 2; e:measure I:Tbsp; e:foodstuff "black peppercorn"; e:detail "whole"]
+    [e:amount 2; e:foodstuff "bay leave"]
+    [e:amount 1; e:measure I:Tbsp; e:foodstuff "oregano"; e:detail "dry"]
+    [e:amount 1; e:measure I:Tbsp; e:foodstuff "basil"; e:detail "dry"]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "sage"; e:detail "dry"]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "tumeric";]
+    [e:amount "1/4"; e:measure I:cup; e:foodstuff "parsley"; e:detail "fresh, chopped"]
+    [e:amount 1; e:measure I:cup; e:foodstuff "soup noodles"; e:detail "classic chicken noodle soup style"]
+    [e:foodstuff "salt"; e:detail "to taste"]
+    [e:foodstuff "pepper"; e:detail "to taste"]
+  );        
+
+  e:directions (
+    [a:content """Start by making stock. Put the water in a very large pot under high heat. When
+it nears boiling, turn the heat down — you want the stock to simmer, not
+boil. That means there should be convections visible in the stock, but barely a
+bubble.
+
+Remove most of the skin and fat from the chicken pieces. Leave a bit, but you
+don’t need much. Score the meat with a sharp knife, five or six deep slashes per
+piece. Drop the chicken pieces into the simmering water.
+
+Toss the two quartered onions, four smashed garlic cloves, chunked celery,
+peppercorns, and bay leaves into the stock, along with two teaspoons of
+salt. Simmer for about 45 minutes.
+
+After about 45 minutes, pull the chicken pieces out of the stock with tongs and
+put them in a bowl. Let them cool for a few minutes, then use a sharp knife to
+pull the meat off the bones. You don’t have to be very precise; plenty of meat
+will come off easily — you don’t have to fight for every scrap of it. Chop the
+meat coarsely, cover it, and set aside (ideally in the fridge). Put the
+de-meated (but still a bit meaty) bones back in the stock to simmer some more.
+
+Now get started on the soup. Heat another large pot and add the olive oil, then
+the rest of the onions, celery, and carrots. Stir the vegetables under medium
+heat for about five or six minutes until the onions turn translucent.
+
+Add the minced garlic and cook for another two minutes.
+
+Add the turmeric and stir for a minute to warm it up. Then ladle, through a
+strainer, about a litre of the stock from the stock pot into the soup pot.
+
+Add the dry herbs, and cook at a very low boil for 15 or 20 minutes. By now the
+stock will have been simmering for almost 90 minutes. Turn the heat off the
+stock.
+
+Add the reserved chicken meat to the soup pot, and ladle the rest of the stock
+(through a strainer) into the soup, reserving about a litre* in a separate
+container.
+
+Add the fresh parsley and simmer the soup for another 10 minutes, then add the
+noodles. Simmer for five minutes to soften the noodles.
+"""]
+  );
+
+  e:notes (
+    [a:content """The herb quantities are approximate — I never measure. You can use fresh herbs
+if you have them. Just triple the amount and add them later in the process.
+"""] 
+
+    [a:content """This makes a lot of soup: about eight servings. If you plan to store some in the
+fridge for later consumption, be aware that the noodles will continue to swell,
+absorbing more liquid. The next day, the soup will look almost like a noodle
+casserole. *That’s why I suggest you set aside a litre of stock: when you warm
+up the leftovers, you can “re-soupify” it by adding the stock. The photo above
+is of day-2 leftovers, "re-soupified."
+
+On the other hand, you could take this alternative approach: instead of adding
+the noodles to the whole pot of soup, set aside the amount you expect to store
+for later. Then, add enough noodles to the remaining soup for the day’s
+meal. Next day, when you warm up the leftovers, add the rest of the noodles then
+and cook for five minutes (or however long it takes for the noodles you're
+using). Personally, I think that's too much work! 
+"""]
+  );
+        
+  e:time [
+
+  ];
+        
+  e:yield [
+    e:makes "About eight big bowls of soup." ;        
+  ]; 
+
+  dc:source [
+    dc:publication "blork blog" ;        
+    dc:identifier "http://blork.typepad.com/blorkblog/2006/03/homemade_chicke.html" ;        
+  ];
+
+  a e:recipe;
+  dc:language "en-ca";
+  dc:identifier "$Id: blorks_chicken_noodle.n3,v 1.3 2007/12/26 02:20:43 asc Exp $";
+  .        

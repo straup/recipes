@@ -1,0 +1,60 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Fusilli with Fresh Spinach and Ricotta Cheese"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure I:pound; e:foodstuff "young spinach"; e:detail "trimmed washed and dried well";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "olive oil"; ]
+     [e:amount "4"; e:measure "small"; e:foodstuff "scallions"; e:detail "chopped";]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "ricotta cheese"; e:detail "preferrably fresh";]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "light cream"; ]
+     [e:measure "pinch"; e:foodstuff "nutmeg"; e:detail "more to taste";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "butter"; e:detail "unsalted";]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "dried fusilli"; ]
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "Parmesan"; e:detail "freshly grated";]
+  );
+
+  e:directions (
+    [a:content """Bring a large pot of water to boil; add about 1 Tbls. salt.
+
+Stack several leaves of spinach at a time and cut them crosswise into 1/4 inch strips.
+You should have about 8 packed cups of shredded spinach.
+
+In a very large pan, heat the olive oil over medium-high heat. Add the scallions and
+cook, stirring, until softened, about 5 minutes.
+
+Stir in the spinach and a pinch of salt and pepper into the pan. Cover and steam the
+spinach until it's wilted but still bright green, about 5 minutes, stirring as needed to
+cok the spinach evenly.
+
+Meanwhile, in a small bowl, stir together the ricotta, cream and nutmeg until
+smooth. Stir the ricotta mixture and the butter into the spinach and season with salt and
+pepper. Reduce the heat to medium low and simmer for 5 minutes.
+
+Meanwhile, stir the fusilli into the boiling water and cover the pot. When the water
+returns to a boil, uncover the pot. Cook the pasta, stirring occasionally, until al
+dente, about 12 minutes.
+
+Reserve 1/2 cup of the pasta cooking liquid. Drain the pasta well and return it to its
+pot over low heat. Add the spinach mixture and enough of the reserved cooking liquid to
+make a sauce that lightly coats the pasta. Toss thoroughly.Remove the pot from the heat and stir in the grated cheese. Transfer the pasta to a warm
+serving platter or individual bowls and serve.""";]
+  ); 
+
+  dc:source [
+    dc:publication "Fine Cooking"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: fussili_with_spinach_ricotta.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

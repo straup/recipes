@@ -1,0 +1,69 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix del:     <http://del.icio.us/tag/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+  dc:title   "Petites Brioches" ;
+  dc:subject "recipe pastry" ;
+
+  e:ingredients (
+    [e:amount 3; e:measure I:cup; e:foodstuff "all-purpose flour"; e:detail """+ a bit more for sprinkling""" ]
+    [e:amount 3; e:measure I:Tbsp; e:foodstuff "sugar"; e:detail "granulated" ]
+    [e:amount 1; e:measure I:tsp; e:foodstuff "salt" ]
+    [e:amount 2.5; e:measure I:tsp; e:foodstuff "instant yeast" ]
+    [e:amount 3; e:foodstuff "eggs" ]
+    [e:amount 1; e:measure "stick"; e:foodstuff "butter"; e:detail """diced, at room temperature + plus a pat to grease the molds""" ]
+    [e:amount 1; e:measure I:Tbsp; e:foodstuff "milk" ]
+    [e:amount "1/4"; e:measure I:cup; e:foodstuff "sugar"; e:detail "large grains" ]
+  );
+
+  e:directions (
+    [a:content """In a large mixing-bowl, combine the flour, sugar, salt, and
+yeast. Form a well in the center. Break the eggs in a small bowl, and pour them
+into the center of the well. Stir in the center of the well with a fork,
+gradually mixing the flour into the eggs. Once all the flour is incorporated,
+transfer the dough onto a well floured surface, and knead it for 12 minutes,
+using the heel of your hand to push the dough down and away from you, before you
+fold it back onto itself (this is called fraiser in French, and I have no idea
+why). If the dough feels a little sticky as you do this, sprinkle a bit more
+flour on the dough and your work surface, and keep kneading. 
+
+Form a hollow in the ball of dough, put the butter into it, close the dough over
+the butter, and start kneading again until the butter is completely
+incorporated: at first it will feel like that will never ever happen considering
+the mess you're making, but be persistent -- if it ended up working for me, it
+should work for you. When you're done, the dough will be smooth and shiny and so
+delightfully pleasant to handle you could keep doing that all afternoon, but
+don't.
+
+Put the ball of dough into a floured mixing-bowl, sprinkle the top with a bit
+more flour, cover the bowl loosely with a kitchen towel, and let rise for two
+hours in a warm spot. The dough should approximately double in volume. Grease a
+tray of six muffin molds with butter. Transfer the dough onto your work surface,
+punch it down a few times, and divide it into 6 equal pieces. Roll them into
+balls, and plop into the muffin molds. Cover loosely with the kitchen towel, and
+let rise for another hour (note: I am not entirely sure that this second rise is
+necessary for instant yeast, but I did it for good luck). 
+
+Preheat the oven to 200° C (400° F), with a small ramequin of water
+inside. Brush the brioches lightly with milk (not too much or it will burn) and
+sprinkle with thick grains of sugar. Put the tray of muffin molds into the oven
+to bake for 15 minutes, until puffy and golden and beautiful. Transfer onto a
+rack. Eat while they're still warm, or let cool to room temperature."""]
+  );
+
+  e:yield [];
+
+  dc:source [
+    dc:publication "Chocolate & Zucchini" ;
+    dc:identifier "http://chocolateandzucchini.com/archives/2006/03/petites_brioches.php" ;        
+  ];
+
+  a e:recipe;
+  dc:language "en";
+  dc:identifier "$Id: petites_brioches.n3,v 1.3 2007/12/26 02:20:43 asc Exp $";
+  .        

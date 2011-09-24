@@ -1,0 +1,46 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Herbed Broiled Swordfish"; 
+
+  e:ingredients (
+     [e:amount "3"; e:measure I:pound; e:foodstuff "swordfish"; e:detail "1/4 inch thick";]
+     [e:amount "I"; e:measure I:cup; e:foodstuff "French dressing"; ]
+     [e:amount "I"; e:measure I:cup; e:foodstuff "butter"; e:detail "clarified";]
+     [e:amount "1"; e:foodstuff "lemon"; e:detail "juiced";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "parsley"; e:detail "chopped";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "chives"; e:detail "chopped";]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "tarragon"; e:detail "chopped";]
+     [e:amount "6"; e:measure "wedges"; e:foodstuff "lemon"; ]
+  );
+
+  e:directions (
+    [a:content """Marinate fish with French sauce, in fridge, covered, with plastic for 2 hours.
+
+Melt carified butter, add lemon juice, parsley, chives and tarragon.
+
+Season with salt and pepper, to taste.
+
+Set aside.
+
+About 1/2 hour before broiling, remove fish from fridge.
+
+Broil in marinade about 4" from heat until golden brown, turn, repeat.Set on warmed platter -- spoon on heated herb butter and lemon wedges.""";]
+  ); 
+
+  dc:source [
+    dc:publication "Moby Hilll (Beach Plum Inn)"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: herbed_broiled_swordfish.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

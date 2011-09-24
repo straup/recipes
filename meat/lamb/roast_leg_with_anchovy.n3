@@ -1,0 +1,68 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+        dc:title "Roast Leg of Lamb With Anchovy, Garlic and Rosemary";
+
+        e:ingredients (
+                [a:content """
+1 4-pound bone-in leg of lamb
+
+4 large garlic cloves, peeled and sliced lengthwise into thirds
+
+20 anchovy fillets in oil, drained
+
+1 bunch rosemary
+
+6 tablespoons butter, softened
+
+Freshly ground black pepper
+
+1 2/3 cups white wine
+
+Juice of 1 lemon
+
+1 small bunch of watercress, to garnish (optional)
+
+Salt, as needed"""
+        ]);
+
+        e:directions (
+        [ a:content """Preheat the oven to 425 degrees. With a small, sharp
+knife, make 12 incisions 2 inches deep into the fleshy side of the leg. Insert a
+piece of garlic, half an anchovy and a small sprig of rosemary into each
+incision. Push them in with your little finger. 
+
+Cream the butter with the remaining anchovies and smear it all over the
+meat. Sprinkle the meat generously with black pepper, place in a roasting pan
+and pour the wine around it. Tuck in any leftover sprigs of rosemary and pour
+the lemon juice over the meat.
+
+Roast in the oven for 15 minutes; lower the oven temperature to 350 degrees and
+roast for 1 hour more, basting from time to time with the juices. (Cook slightly
+longer, depending on how well done you like your meat.) Let rest in a warm place
+for at least 15 minutes before carving. 
+
+Meanwhile, taste the juices, adding salt as needed. (It should not need much
+because of the anchovies.) If the gravy is too thin, simmer it in a skillet to
+thicken. If you choose, garnish the slices of lamb with sprigs of
+watercress. Serve with gravy and mashed potatoes or creamed eggplant."""
+        ]);
+
+        dc:source [
+                dc:publication "The New York Times";
+                dc:identifier "http://www.nytimes.com/2007/12/02/magazine/02food-t.html" ;
+        ];
+
+        e:yield [ e:servings "4"; ];
+
+        a e:recipe ;
+        dc:language "en-us" ;
+        dc:identifier "$Id: roast_leg_with_anchovy.n3,v 1.3 2007/12/26 02:20:42 asc Exp $" ;
+        .

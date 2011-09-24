@@ -1,0 +1,59 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Baked Veal and Water Chestnuts"; 
+
+  e:ingredients (
+     [e:amount "1"; e:measure "stick"; e:foodstuff "butter"; e:detail "1/2 pound";]
+     [e:amount "2"; e:measure I:pound; e:foodstuff "boneless veal"; e:detail "cut in 1-inch cubes";]
+     [e:amount "1"; e:measure "medium"; e:foodstuff "onion"; e:detail "finely chopped";]
+     [e:amount "1"; e:measure I:tsp; e:foodstuff "salt"; ]
+     [e:amount "1/4"; e:measure I:tsp; e:foodstuff "pepper"; ]
+     [e:measure "dash"; e:foodstuff "cayenne"; ]
+     [e:amount "1"; e:measure I:pound; e:foodstuff "mushrooms"; e:detail "trimmed and quartered";]
+     [e:amount "1"; e:measure I:cup; e:foodstuff "beef bouillon"; ]
+     [e:amount "2"; e:measure "5-ounze cans"; e:foodstuff "water chestnuts"; e:detail "drained and sliced";]
+     [e:measure "dash"; e:foodstuff "nutmeg"; ]
+     [e:amount "1"; e:foodstuff "bay leaf"; ]
+     [e:amount "2"; e:measure I:cup; e:foodstuff "heavy cream"; ]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "cognac"; ]
+     [e:amount "1/4"; e:measure I:cup; e:foodstuff "parsley"; e:detail "chopped";]
+  );
+
+  e:directions (
+    [a:content """In a heavy skillet melt 1/2 stick of the butter. Stir in the veal and brown on all sides.
+Stir in the onion and crushed garlic and cook until the onion is golden. Season the
+mixture with salt, pepper and cayenne and transfer it to a casserole (2-quart size for one recipe).
+
+In the same skillet saute the mushrooms in the remaining 1/2 stick of butter. Stir the
+mushrooms into the casserole and add the beef bouillon, chestnuts, megnut and bay leaf.
+
+Cover the casserole and bake in a moderately hot oven (375 F) for 1 to 1 1/2 hours, or
+until the meat is tender.
+
+Stir in the cream and cook the mixture, uncovered, for 15 minutes longer. Add the
+cognac and reheat the dish. Stir in the parsley.""";]
+  ); 
+
+  e:history (
+    [a:content """Big dinner parties, little dinner parties -- this dish was always synonymous with a
+wonderful evening of good friends, sometime several tables of them, and lively conversation."""; 
+    a:author "[[#][Pat Novak]]"; ]
+  );
+
+  dc:source [
+    dc:publication "Dottie's Cookbook"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: baked_veal_with_waterchestnuts.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         

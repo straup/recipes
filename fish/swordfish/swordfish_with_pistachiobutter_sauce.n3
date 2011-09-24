@@ -1,0 +1,41 @@
+# -*-n3-*-
+
+@prefix e:       <http://eatdrinkfeelgood.info/2.0#> .
+@prefix I:       <http://eatdrinkfeelgood.info/2.0/us-imperial#> .
+@prefix M:       <http://eatdrinkfeelgood.info/2.0/metric#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix a:       <http://purl.org/atom/1.0/> .
+
+<#>
+         
+  dc:title "Swordfish Steaks with Pistachio-butter Sauce"; 
+
+  e:ingredients (
+     [e:amount "1/2"; e:measure I:cup; e:foodstuff "pistachios"; e:detail "chopped";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "butter"; ]
+     [e:amount "4"; e:measure "steaks"; e:foodstuff "swordfish"; e:detail "5 ounces, each, recommeded";]
+     [e:amount "1/3"; e:measure I:cup; e:foodstuff "white wine"; e:detail "dry";]
+     [e:amount "2"; e:measure I:Tbsp; e:foodstuff "lemon juice"; ]
+     [e:amount "1"; e:measure I:Tbsp; e:foodstuff "Italian parsley"; e:detail "chopped";]
+  );
+
+  e:directions (
+    [a:content """Cook the pistachios in 1 Tbs of the butter in a large skillet over medium heat,
+stirring often, until browned, 3 to 4 minutes. Remove from pan with a slotted spoon and drain on
+paper towels.
+
+Sprinkle swordfish with 1/2 tsp. salt and 1/4 tbs. ground black pepper; cook in a
+large skillet over medium heat in 1 Tbs. oil and remaining butter until almost cooked, 3
+minutes on each side.Remove and place on serving platter. Add wine and lemon juice to pan and simmer 2
+minutes; stir in parsley. Pour sause over steaks and sprinkle with nuts.""";]
+  ); 
+
+  dc:source [
+    dc:publication "Moby Hill"; 
+  ]; 
+
+  a e:recipe ;
+  dc:language "" ;
+  dc:identifier "$Id: swordfish_with_pistachiobutter_sauce.n3,v 1.2 2007/12/26 02:20:42 asc Exp $" ;
+  .
+         
