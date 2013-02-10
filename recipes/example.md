@@ -9,14 +9,18 @@ Ingredients
 Directions
 --
 
-Step one. Do something.
+Step one. Do something and heat the oven to **325 F**.
 
-Step two. Do something else.
+Step two. Do something else and let rest for **60 minutes**.
 
 Notes - optional, remove at will
 --
 
-* Best served during a full moon.
+* See the way that individual ingredients are denoted using the ``` character?
+* That's a nice to have but not required.
+
+* See the way the temperatures and times are emboldened using `**` characters?
+  That's also a nice to have but not required.
 
 Fine print - optional, remove at will
 --
