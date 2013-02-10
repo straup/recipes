@@ -10,9 +10,10 @@ goes. Things are slowly being rewritten in
 How does it work
 --
 
-* The title of the recipe is underlined by `==`, like this:
+* The title of the recipe is underlined by two consequtive equals symbols (or `==`)
 
-	Roasted Pear Nubbies
-	==
+* Ingredients are ...
 
-* Ingredients are 
+* Directions are ...
+
+* Note
