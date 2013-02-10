@@ -4,17 +4,17 @@ Thin-and-Crisp Chocolate-Chip Cookies
 Ingredients
 --
 
-* 1 3/4 c flour *all-purpose*
-* 3/4 t baking soda
-* 1 T salt
-* 14 T butter *melted*
-* 1/2 c sugar *light brown, packed*
-* 1/2 c sugar
-* 2 T corn syrup
-* 1 T vanilla extract
-* 2 T milk
-* 1 1/2 cchocolate *bittersweet, chopped (peasize pieces and shavings)*
-* 1 c walnuts *toasted, chopped*
+* 1 3/4 c `flour` *all-purpose*
+* 3/4 t `baking soda`
+* 1 T `salt`
+* 14 T `butter` *melted*
+* 1/2 c `sugar` *light brown, packed*
+* 1/2 c `sugar`
+* 2 T `corn syrup`
+* 1 T `vanilla extract`
+* 2 T `milk`
+* 1 1/2 `chocolate` *bittersweet, chopped (peasize pieces and shavings)*
+* 1 c `walnuts` *toasted, chopped*
 
 Directions
 --

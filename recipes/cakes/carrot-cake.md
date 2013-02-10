@@ -4,20 +4,20 @@ Carrot Cake
 Ingredients
 --
 
-* 3 `c` carrots *grated*
-* 2 `c` flour
-* 2 `t` baking soda
-* 1 `t` salt
-* 2 `c` sugar
-* 2 `t` cinnamon
-* 1 1/2 `c` oil
+* 3 c `carrots` *grated*
+* 2 c `flour`
+* 2 t `baking soda`
+* 1 t `salt`
+* 2 c `sugar`
+* 2 t `cinnamon`
+* 1 1/2 c `oil`
 * 4 eggs
-* 1/2 `c` walnuts
-* 8 `o` cream cheese
-* 1 `stick` butter *room temperature*
-* 1 `box` confectioners sugar
-* 2 `t` sugar"; ]
-* 1 `t` vanilla extract
+* 1/2 c `walnuts`
+* 8 o `cream cheese`
+* 1 `stick butter` *room temperature*
+* 1 box `confectioners sugar`
+* 2 t `sugar`
+* 1 t `vanilla extract`
 
 Directions
 --

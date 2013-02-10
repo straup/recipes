@@ -4,11 +4,11 @@ Quick drop biscuits
 Ingredients
 --
 
-* 2 c flour
-* 1 t salt
-* 2 1/2 t baking powder
-* 2-6 T butter *chilled*
-* 1 c milk
+* 2 c `flour`
+* 1 t `salt`
+* 2 1/2 t `baking powder`
+* 2-6 T `butter` *chilled*
+* 1 c `milk`
 
 Directions
 --

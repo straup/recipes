@@ -4,11 +4,11 @@ Pizza dough
 Ingredients
 --
 
-* 2 1/4 c flour
-* 2 t sea salt
-* 1 1/2 c water
-* 1 t yeast
-* 1 1/2 T olive oil
+* 2 1/4 c `flour`
+* 2 t sea `salt`
+* 1 1/2 c `water`
+* 1 t `yeast`
+* 1 1/2 T `olive oil`
 
 Directions
 --

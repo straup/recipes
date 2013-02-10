@@ -4,13 +4,13 @@ Chocolate Genoise Cake
 Ingredients
 --
 
-* 6 `o` chocolate *bittersweet or semisweet, chopped*
-* 3 `T` butter *cut into bits*
-* 1 `t` vanilla
-* 1 `c` cake flour *not self-rising*
-* 1/2 `t` salt
-* 6 eggs *large, room temperature*
-* 1/4 `c` sugar
+* 6 o `chocolate` *bittersweet or semisweet, chopped*
+* 3 T `butter` *cut into bits*
+* 1 t `vanilla`
+* 1 c `cake flour` *not self-rising*
+* 1/2 t `salt`
+* 6 lg `eggs` *room temperature*
+* 1/4 c `sugar`
 
 Directions
 --

@@ -4,16 +4,16 @@ Never-fail Chocolate Cake
 Ingredients
 --
 
-* 2 `sq` chocolate *sweetened*
-* butter  *size of an egg*
-* 1/2 `c` water *hot*
-* 1 `c` flour
-* 1 `c` sugar
-* `pinch` salt
-* 1 egg
-* 3/4 `t` baking soda
-* 1/4 `c` milk *sour*
-* 1 `t` vanilla
+* 2 sq `chocolate` *sweetened*
+* `butter` *size of an egg*
+* 1/2 c `water` *hot*
+* 1 c `flour`
+* 1 c `sugar`
+* pinch `salt`
+* 1 `egg`
+* 3/4 t `baking soda`
+* 1/4 c `milk` *sour*
+* 1 t `vanilla`
 
 Directions
 --

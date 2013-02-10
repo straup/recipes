@@ -4,13 +4,13 @@ Baci di dama
 Ingredients
 --
 
-* 10 T butter *softened*
-* 1/2 c caster sugar
-* 1 egg *yolk*
-* 1/2 t almond essence
-* 1 c almonds *ground*
-* 1 1/2 c flour
-* 2 oz chocolate
+* 10 T `butter` *softened*
+* 1/2 c `caster sugar`
+* 1 `egg` *yolk*
+* 1/2 t `almond essence`
+* 1 c `almonds` *ground*
+* 1 1/2 c `flour`
+* 2 oz `chocolate`
 
 Directions
 --

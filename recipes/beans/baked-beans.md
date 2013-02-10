@@ -4,16 +4,16 @@ Baked Beans
 Ingredients
 --
 
-*  1 qt navy beans *dry*
-*  3/4 lb salt pork
-*  2 onions *finely chopped*
-*  1 T salt
-*  2 t hot mustard
-*  4 T molasses
-*  5 T dark brown sugar
-*  1/2 c dark rum
-*  2 c boiling water from beans
-*  2 T bacon drippings
+*  1 qt `navy beans` *dry*
+*  3/4 lb `salt pork`
+*  2 `onions` *finely chopped*
+*  1 T `salt`
+*  2 t `hot mustard`
+*  4 T `molasses`
+*  5 T `dark brown sugar`
+*  1/2 c `dark rum`
+*  2 c `boiling water` *from beans*
+*  2 T `bacon drippings`
 
 Directions
 ---

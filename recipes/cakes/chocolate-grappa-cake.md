@@ -4,17 +4,17 @@ Chocolate Grappa Cake
 Ingredients
 --
 
-* 1/2 `c` raisins
-* 3/4 `c` flour
-* 9 `o` chocolate *bittersweet*
-* 1/2 `c` butter *cut into pieces*
-* 6 `lg` eggs *separted*
-* 1/2 `c` sugar *granulated*
-* 1/3 `c` grappa
-* 1 `t` vanilla
-* 1/3 `c` pine nuts
-* confectioners' sugar
-* whipped cream
+* 1/2 c `raisins`
+* 3/4 c `flour`
+* 9 oz `chocolate` *bittersweet*
+* 1/2 c `butter` *cut into pieces*
+* 6 lg `eggs` *separted*
+* 1/2 c `sugar` *granulated*
+* 1/3 c `grappa`
+* 1 t `vanilla`
+* 1/3 c `pine nuts`
+* `confectioners sugar`
+* `whipped cream`
 
 Directions
 --
