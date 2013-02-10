@@ -10,8 +10,8 @@ http://www.eatdrinkfeelgood.org/examples/1.1/recipes/graham_cracker_crust.xml
 
 ### The filling
 
-* 3 packages `cream cheese` (3 ounces each";e:foodstuff "cream cheese, softened)
-* 1 c `sugar`
+* 3 packages `cream cheese` - 3 ounces each, softened
+* 1 *c* `sugar`
 * 1/4 c `sugar` light brown
 * 1 3/8 c `sweet potatoes` mashed
 * 2 large `eggs` slightly beaten
