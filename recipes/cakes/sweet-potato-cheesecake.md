@@ -14,7 +14,7 @@ http://www.eatdrinkfeelgood.org/examples/1.1/recipes/graham_cracker_crust.xml
 * 1 c `sugar`
 * 1/4 c `sugar` *light brown*
 * 1 3/8 c `sweet potatoes` *mashed*
-* 2 large `eggs` slightly *beaten*
+* 2 lg `eggs` slightly *beaten*
 * 2/3 c `evaporated milk`
 * 2 T `cornstarch`
 * 1/4 t `cinnamon` *ground*
