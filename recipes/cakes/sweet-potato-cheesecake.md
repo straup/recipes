@@ -10,19 +10,19 @@ http://www.eatdrinkfeelgood.org/examples/1.1/recipes/graham_cracker_crust.xml
 
 ### The filling
 
-* 3 packages `cream cheese` - 3 ounces each, softened
-* 1 *c* `sugar`
-* 1/4 c `sugar` light brown
-* 1 3/8 c `sweet potatoes` mashed
-* 2 large `eggs` slightly beaten
+* 3 packages `cream cheese` *3 ounces each, softened*
+* 1 c `sugar`
+* 1/4 c `sugar` *light brown*
+* 1 3/8 c `sweet potatoes` *mashed*
+* 2 large `eggs` slightly *beaten*
 * 2/3 c `evaporated milk`
 * 2 T `cornstarch`
-* 1/4 t `cinnamon` ground
-* 1/8 t `nutmeg` ground
+* 1/4 t `cinnamon` *ground*
+* 1/8 t `nutmeg` *ground*
 
 ### The topping
 
-* 2 c `sour cream` room temperature
+* 2 c `sour cream` *room temperature*
 * 1/3 c `sugar`
 * 1 t `vanilla extract`
 
