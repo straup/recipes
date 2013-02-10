@@ -18,7 +18,7 @@ Notes - optional, remove at will
 
 Things that are nice to have, but not required:
 
-* Noting individual ingredients by wrapping them with the `\`` character.
+* Noting individual ingredients by wrapping them with the `` ` `` character.
 
 * Noting specifics about an ingredient by wrapping it with the `*` character.
 
