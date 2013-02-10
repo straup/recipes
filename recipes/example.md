@@ -18,9 +18,11 @@ Notes - optional, remove at will
 
 Things that are nice to have, but not required:
 
-* Denoting individual ingredients by wrapping them with the "`" character.
+* Noting individual ingredients by wrapping them with the "`" character.
 
-* Denoting temperatures and times by wrapping them with "**" characters.
+* Noting specifics about an ingredient by wrapping it with the "*" character.
+
+* Noting temperatures and times by wrapping them with "**" characters.
 
 Fine print - optional, remove at will
 --
