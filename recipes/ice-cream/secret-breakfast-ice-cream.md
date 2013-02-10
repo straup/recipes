@@ -11,7 +11,7 @@ Ingredients
 * 1 c `sugar`
 * 1/2 t `vanilla extract`
 * 1/2 c `bourbon`
-* 1/2 c `corn flake cookies` *chopped*
+* 1/2 c [`corn flake cookies`](../cookies/corn-flake-cookies.md)*chopped*
 
 Directions
 --
@@ -25,4 +25,4 @@ Fine print
 
 ### Source
 
-Humphrey Slocobe Cookbook
+Humphrey Slocombe Cookbook
