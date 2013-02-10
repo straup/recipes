@@ -27,4 +27,4 @@ Fine print
 
 ### Source
 
-The New Basics
+[The New Basics Cookbook](http://openlibrary.org/books/OL2063829M/The_new_basics_cookbook)

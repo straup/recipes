@@ -14,7 +14,7 @@ Ingredients
 Directions
 --
 
-Preheat the oven to 275 degrees. Bring a kettle full of water to a boil.
+Preheat the oven to **275 F**. Bring a kettle full of water to a boil.
 
 Warm the cream with the vanilla bean and seeds to just before boiling,
 whisking to disperse the seeds. Remove from heat, cover and let infuse for 30
@@ -28,7 +28,7 @@ sieve and pour into 4 4-ounce ramekins or 6 3-ounce porcelain espresso cups.
 4. Place the ramekins in an 8-inch baking pan. Fill the pan with enough hot
 water to rise halfway up the sides of the ramekins. Bake in the oven until
 slightly puffed and spongy, 45 to 60 minutes. Remove from the pan to
-cool. Refrigerate for at least 6 hours. Bring back to room temperature before
+cool. Refrigerate for at least **6 hours**. Bring back to room temperature before
 serving.
 
 Fine print
