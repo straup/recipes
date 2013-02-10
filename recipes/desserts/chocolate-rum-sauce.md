@@ -14,7 +14,7 @@ Directions
 --
 
 Combine the cream, sugar, chocolate, butter and rum in a small saucepan and stir over
-low heat until thick and smooth.
+**low heat** until thick and smooth.
 
 Notes
 --
@@ -27,4 +27,4 @@ Fine print
 
 ### Source
 
-The New Basic
+The New Basics
