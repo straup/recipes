@@ -1,6 +1,8 @@
 Name of recipe
 ==
 
+[See the plain text version of this file](https://raw.github.com/straup/recipes/master/recipes/example.md)
+
 Ingredients
 --
 
