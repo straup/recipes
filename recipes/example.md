@@ -24,6 +24,13 @@ Things that are nice to have, but not required:
 
 * Noting temperatures and times by wrapping them with `**` characters.
 
+History - optional, remove at will
+--
+
+### Your name here
+
+We used to eat this on long car trips.
+
 Fine print - optional, remove at will
 --
 
