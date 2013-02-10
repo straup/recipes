@@ -4,17 +4,17 @@ Osso Buco
 Ingredients
 --
 
-* A chicken *for roasting and eating the night before*
-* Beef bones *for making stock*
-* Lamb shanks *the original recipe calls for veal shanks to be cut in 2" slices but lamb shanks are smaller than veal shanks and so I just ask the butcher to cut them in half or thirds, adjust to taste*
-* A bottle of dry white wine
-* Tomatoes *the recipe calls for three-quaters of a pound of fresh tomatoes, skinned, for two pounds of shanks but I've also used canned tomatoes and I generally just eyeball the amounts to taste; the tomatoes are there to keep the shanks company while they cook so you don't really need to be fussy about it*
-* Fresh Italian parsley and other warm, earthy herbs to taste *I like marjoram and sage and maybe winter savory if it's in the house*
-* Garlic
-* A lemon for zesting
+* 1 `chicken` *small to medium, for roasting and eating the night before*
+* 3-6 `beef bones` *for making stock*
+* `lamb shanks` *the original recipe calls for veal shanks to be cut in 2" slices but lamb shanks are smaller than veal shanks and so I just ask the butcher to cut them in half or thirds, adjust to taste*
+* `dry white wine` *just get a bottle*
+* `tomatoes` *the recipe calls for three-quaters of a pound of fresh tomatoes, skinned, for two pounds of shanks but I've also used canned tomatoes and I generally just eyeball the amounts to taste; the tomatoes are there to keep the shanks company while they cook so you don't really need to be fussy about it*
+* `fresh Italian parsley` and other warm, earthy herbs to taste *I like marjoram and sage and maybe winter savory if it's in the house*
+* `garlic`
+* 1 `lemon` for zesting
 * Salt and pepper and butter
-* Arborio rice
-* Saffron
+* 1 c `arborio rice`
+* `saffron`
 
 Equipment
 --
@@ -33,9 +33,9 @@ The night before you're going to have the osso buco, roast the chicken. Eat the 
 
 ### The lamb
 
-You should expect to set aside an hour doing prep work and other cooking before you put the osso buco in the oven. I try to let it roast for at least an hour and a half before I take it out and continue to cook it on the stove top while I make the risotto, which takes another 30 or 40 minutes. So, you're basically looking at a minimum three hours from start to finish. It's not really one of those things you just "whip up" when you come home after work. The longer you can leave the shanks in the oven the better so it's a nice dish to make on a lazy Sunday.
+You should expect to set aside **an hour** doing prep work and other cooking before you put the osso buco in the oven. I try to let it roast for at least an hour and a half before I take it out and continue to cook it on the stove top while I make the risotto, which takes another **30 or 40 minutes**. So, you're basically looking at a minimum three hours from start to finish. It's not really one of those things you just "whip up" when you come home after work. The longer you can leave the shanks in the oven the better so it's a nice dish to make on a lazy Sunday.
 
-When you're ready to get started pre-heat the oven to 350 degrees Farenheit. If you're going to spend all day cooking the dish then set it a bit lower, like 275. Heat up the beef stock in a separate pot.
+When you're ready to get started pre-heat the oven to **350 F**. If you're going to spend all day cooking the dish then set it a bit lower, like 275. Heat up the beef stock in a separate pot.
 tuesday night
 
 Melt the butter in the casserole, then sear and brown the shanks on the stove top. I usually start with a little less than a quarter stick (a stick being a quarter of a pound) of butter but go ahead and add more if you want. I wish I could offer some useful advice on searing meats but I usually doubt myself. The gist of it is to get the pan super hot without also burning the butter. Short of blackening the butter I don't worry about it too much.
