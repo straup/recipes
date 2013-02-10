@@ -6,7 +6,7 @@ Ingredients
 
 * 1 `chicken` *small to medium, for roasting and eating the night before*
 * 3 - 6 `beef bones` *for making stock*
-* 3 - 4 `lamb shanks` *the original recipe calls for veal shanks to be cut in 2" slices but lamb shanks are smaller than veal shanks and so I just ask the butcher to cut them in half or thirds, adjust to taste*
+* 2 - 3 `lamb shanks` *the original recipe calls for veal shanks to be cut in 2" slices but lamb shanks are smaller than veal shanks and so I just ask the butcher to cut them in half or thirds, adjust to taste*
 * 1 c `arborio rice`
 * 1 bottle `dry white wine`
 * `tomatoes` *the recipe calls for three-quaters of a pound of fresh tomatoes, skinned, for two pounds of shanks but I've also used canned tomatoes and I generally just eyeball the amounts to taste; the tomatoes are there to keep the shanks company while they cook so you don't really need to be fussy about it*
