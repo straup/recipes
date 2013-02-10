@@ -9,9 +9,9 @@ Ingredients
 Directions
 --
 
-Step one. Do something and heat the oven to **325 F**.
+Do something ... heat the oven to **325 F**.
 
-Step two. Do something else and let rest for **60 minutes**.
+Do something else ... let rest for **60 minutes**.
 
 Notes - optional, remove at will
 --
