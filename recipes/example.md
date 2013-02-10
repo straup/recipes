@@ -13,12 +13,12 @@ Step one. Do something.
 
 Step two. Do something else.
 
-Notes
+Notes - optional, remove at will
 --
 
-* Assuming there are any.
+* Best served during a full moon.
 
-Fine print - everything here is optional, remove at will
+Fine print - optional, remove at will
 --
 
 ### Source

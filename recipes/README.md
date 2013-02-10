@@ -10,10 +10,4 @@ goes. Things are slowly being rewritten in
 How does it work
 --
 
-* The title of the recipe is underlined by two consequtive equals symbols (or `==`)
-
-* Ingredients are ...
-
-* Directions are ...
-
-* Note
+Take a look at the [example.md](example.md) file.
