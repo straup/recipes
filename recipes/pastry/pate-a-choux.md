@@ -10,9 +10,9 @@ Ingredients
 * 4 T `butter` *sweet*
 * 1 T `sugar` *granulated*
 * 1/2 t `salt`
-* 1 c `flour` *all-purpose; unbleached, sifted*
+* 1 c `flour` *all-purpose*
 * 4 `eggs` *room temperature*
-* 1 pt `vanilla ice cream`
+* 1 pt `ice cream` *tradition dictates vanilla but you know, whatever*
 
 Directions
 --
