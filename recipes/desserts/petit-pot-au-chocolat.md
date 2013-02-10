@@ -25,9 +25,9 @@ the egg yolks and confectioners’ sugar in a medium bowl. Add the chocolate
 mixture and the vanilla cream and blend thoroughly. Pass through a fine mesh
 sieve and pour into 4 4-ounce ramekins or 6 3-ounce porcelain espresso cups. 
 
-4. Place the ramekins in an 8-inch baking pan. Fill the pan with enough hot
+Place the ramekins in an 8-inch baking pan. Fill the pan with enough hot
 water to rise halfway up the sides of the ramekins. Bake in the oven until
-slightly puffed and spongy, 45 to 60 minutes. Remove from the pan to
+slightly puffed and spongy, **45 - 60 minutes**. Remove from the pan to
 cool. Refrigerate for at least **6 hours**. Bring back to room temperature before
 serving.
 
