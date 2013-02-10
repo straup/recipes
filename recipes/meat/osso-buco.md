@@ -41,7 +41,7 @@ Some people are super fussy about their stocks and get all bent out of shape if 
 
 You should expect to set aside **an hour** doing prep work and other cooking before you put the osso buco in the oven. I try to let it roast for at least an hour and a half before I take it out and continue to cook it on the stove top while I make the risotto, which takes another **30 or 40 minutes**. So, you're basically looking at a minimum three hours from start to finish. It's not really one of those things you just "whip up" when you come home after work. The longer you can leave the shanks in the oven the better so it's a nice dish to make on a lazy Sunday.
 
-When you're ready to get started pre-heat the oven to **350 F**. If you're going to spend all day cooking the dish then set it a bit lower, like 275. Heat up the beef stock in a separate pot.
+When you're ready to get started pre-heat the oven to **350 F**. If you're going to spend all day cooking the dish then set it a bit lower, like **275 F**. Heat up the beef stock in a separate pot.
 tuesday night
 
 Melt the butter in the casserole, then sear and brown the shanks on the stove top. I usually start with a little less than a quarter stick (a stick being a quarter of a pound) of butter but go ahead and add more if you want. I wish I could offer some useful advice on searing meats but I usually doubt myself. The gist of it is to get the pan super hot without also burning the butter. Short of blackening the butter I don't worry about it too much.
@@ -49,7 +49,6 @@ Melt the butter in the casserole, then sear and brown the shanks on the stove to
 Once the shanks are browned pour in the white wine and let cook for, according to the recipe, **10 minutes**. The recipe calls for a cup of white wine for two pounds of meat. I suspect that this is one of the places where my version gets weird because I think there's an expectation that the bones will be short enough that a cup of white will come close to covering them. The tall and gangly lamb shanks I use are never fully covered so I just move them around. I probably always add more than a cup of wine.
 
 After "10 minutes" add the tomatoes and reduce. I swear to god that's all the original recipe says. I also add herbs and spices at this point.
-lamb / shanks
 
 Once the tomatoes have "reduced" add the beef stock. As with the wine the recipe calls for a cup but I add whatever I need to almost cover the shanks or whatever feels right. Bring the whole thing to a simmer, cover and stick it in the oven.
 
