@@ -16,6 +16,11 @@ Ingredients
 Directions
 --
 
+Notes
+--
+
+* I usually only use about 1 t of salt and even then I just sort of eyeball it.
+
 Fine print
 --
 
