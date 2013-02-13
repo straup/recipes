@@ -1,7 +1,5 @@
-Name of recipe
-==
-
 Light and fluffy pancakes
+==
 
 Ingredients
 --
