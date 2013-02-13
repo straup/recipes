@@ -35,14 +35,14 @@ spatula and cook on second side until golden brown and completely set, about 2
 minutes longer. Serve pancakes immediately or keep warm no a wire rack set in a
 rimmed baking sheet in a warm oven while you cook the three remaining batches.
 
-Notes - optional, remove at will
+Notes
 --
 
 * Someone asked: "Can you give us the weight of flour you used?". The answer is: 
   "5 ounces per cup. Sorry, I should have included that. Total weight is 10
   ounces." Do with that information what you will...
 
-Fine print - optional, remove at will
+Fine print
 --
 
 ### Source
