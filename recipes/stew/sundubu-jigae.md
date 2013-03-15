@@ -1,7 +1,7 @@
 Sundubu Jigae
 ==
 
-This a Korean dish. Soft tofu in Korean is called sundubu (순두부). It is used to make a thick stew called sundubu jjigae (순두부 찌개). But you may use the Tofu of your choices and the ingredients can vary. This is one of the many recipes you can create around it.
+This is a Korean dish. Soft tofu in Korean is called sundubu (순두부). It is used to make a thick stew called sundubu jjigae (순두부 찌개). But you may use the Tofu of your choices and the ingredients can vary. This is one of the many recipes you can create around it.
 
 It is a quick dish to prepare around 10 minutes preparation and 20 minutes cooking. Serve with a bowl of rice on the side. You may want to drink Soju (Hangul 소주; Hanja 燒酒) with it.
 
@@ -65,4 +65,4 @@ Source
 --
 
 * This [dish](http://www.la-grange.net/2013/03/15/sundubu-jigae) in image. And damn it was good.
-* A variation: [Sundubu-Jigae](http://la-grange.net/2009/09/28/sundubu)[[thisisaaronland]]. As I said you can modify the way to do it. Just feel free to do your own.
+* A variation: [Sundubu-Jigae](http://la-grange.net/2009/09/28/sundubu). As I said you can modify the way to do it. Just feel free to do your own.
