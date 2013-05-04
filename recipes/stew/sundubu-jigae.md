@@ -12,11 +12,11 @@ Ingredients
 * a 400g block of `tofu`
 * 400g of `kimchi cabbage`
 * 5 slices of `bacon`
-* 5 cm of a daikon
+* 5 cm of a `daikon`
 * `green onions`
 * 1 big spoon of `sesame oil`
 * 1 big spoon of `dashi`
-* 4 chunks of dry skin tofu
+* 4 chunks of dry skin `tofu`
 * 1 small pack of `enoki` mushrooms
 * 2 eggs
 
